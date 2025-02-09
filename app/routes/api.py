@@ -3,7 +3,6 @@ from app.services.linkedin_service import get_linkedin_data
 from app.services.roast_service import generate_roast
 from app.services.speech_service import generate_speech
 from app.services.video_service import generate_video
-from app.services.firebase_service import FirebaseService
 from app.services.supabase_service import SupabaseService
 import os
 import uuid
