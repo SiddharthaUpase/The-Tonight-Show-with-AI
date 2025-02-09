@@ -1,4 +1,4 @@
-#!/Users/siddharthaupase/Desktop/python_tp/ai_roast/venv/bin/python
+#!/Users/siddharthaupase/Desktop/python_tp/ai_roast/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys

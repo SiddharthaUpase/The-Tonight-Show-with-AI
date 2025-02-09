@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/siddharthaupase/Desktop/python_tp/The Tonight Show with AI/venv/bin/python3.13" "$0" "$@"
-' '''
+#!/Users/siddharthaupase/Desktop/python_tp/ai_roast/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys

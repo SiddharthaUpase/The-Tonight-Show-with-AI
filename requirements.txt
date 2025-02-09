@@ -1,10 +1,10 @@
-firebase_admin==6.6.0
 Flask==3.1.0
 gdown==5.2.0
-moviepy==2.1.2
+moviepy==1.0.3
 openai==1.61.1
-Pillow==11.1.0
 python-dotenv==1.0.1
 Requests==2.32.3
 supabase==2.13.0
 deepgram-sdk==3.9.0
+
+
