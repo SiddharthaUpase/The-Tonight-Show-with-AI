@@ -11,6 +11,9 @@ from app.services.supabase_service import SupabaseService
 if not hasattr(Image, 'ANTIALIAS'):
     Image.ANTIALIAS = Image.LANCZOS
 
+# Use environment variable or fall back to local asset
+BASE_VIDEO_PATH = os.getenv('BASE_VIDEO_PATH', 'assets/car_base.mp4')
+
 class VideoGenerator:
     def __init__(self, base_video_url: str = "https://drive.google.com/file/d/1tbH-PBdQPM1Ya_hmiq0MKn3WKFuLZ54K/view?usp=sharing"):
         """Initialize the video generator with base video URL."""
@@ -27,9 +30,6 @@ class VideoGenerator:
     def create_video(self, audio_path: str, profile_image_path: str, transcript_text: str, output_path: str):
         """Create the final video with audio, image and synchronized subtitles."""
         try:
-            # Download base video
-            base_video_path = self._download_base_video()
-            
             # Load transcription data
             with open('transcription.json', 'r', encoding='utf-8') as f:
                 transcription_data = json.load(f)
@@ -44,7 +44,7 @@ class VideoGenerator:
             total_duration = audio_duration + 2
             
             # Load and trim base video
-            video = VideoFileClip(base_video_path).subclip(0, total_duration)
+            video = VideoFileClip(BASE_VIDEO_PATH).subclip(0, total_duration)
             
             # Load and prepare image overlay
             image = (ImageClip(profile_image_path)
@@ -138,6 +138,9 @@ def generate_video(linkedin_data: dict, audio_path: str, roast_text: str) -> str
     temp_dir = "temp_files"
     generator = None
     try:
+        if not os.path.exists(BASE_VIDEO_PATH):
+            raise Exception(f"Base video not found at {BASE_VIDEO_PATH}")
+        
         # Download profile picture
         profile_pic = download_profile_picture(linkedin_data)
         if not profile_pic:
@@ -165,6 +168,10 @@ def generate_video(linkedin_data: dict, audio_path: str, roast_text: str) -> str
         video_url = supabase_service.upload_video(output_path, "default_user")
         
         return video_url
+        
+    except Exception as e:
+        print(f"Error in generate_video: {str(e)}")
+        raise
         
     finally:
         # Cleanup only after upload is complete

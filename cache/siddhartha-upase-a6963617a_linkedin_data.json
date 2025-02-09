@@ -1,0 +1,340 @@
+{
+  "id": 712231281,
+  "urn": "ACoAACpzyXEBoquUz4kYqQw-g6Y_F-w4RQXQSBs",
+  "username": "siddhartha-upase-a6963617a",
+  "firstName": "Siddhartha",
+  "lastName": "Upase",
+  "isCreator": true,
+  "profilePicture": "https://media.licdn.com/dms/image/v2/D4D03AQF4xBs5MHXq_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707669820294?e=1744848000&v=beta&t=ubzSIS4hUL1_vle-xYGSyhCsdDgHgzOw-Zpf4xQPOfU",
+  "backgroundImage": [
+    {
+      "width": 800,
+      "height": 199,
+      "url": "https://media.licdn.com/dms/image/v2/D4D16AQH7I_hbfeVjgQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1711398637527?e=1744848000&v=beta&t=4ryrJGU29VPi1WqAGzYnxErv723ZyvAd90Gh9RaV70o"
+    },
+    {
+      "width": 1400,
+      "height": 349,
+      "url": "https://media.licdn.com/dms/image/v2/D4D16AQH7I_hbfeVjgQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1711398637527?e=1744848000&v=beta&t=nbrsOgnpD8BntnI8Ad2iXCXuOLuChXXXCUePhYawaqc"
+    }
+  ],
+  "headline": "Full stack Developer| Passionate Business Development Professional | Sales Enthusiast",
+  "geo": {
+    "country": "United States",
+    "city": "Chicago, Illinois",
+    "full": "Chicago, Illinois, United States",
+    "countryCode": "us"
+  },
+  "educations": [
+    {
+      "start": {
+        "year": 2023,
+        "month": 1,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "fieldOfStudy": "Computer Science",
+      "degree": "Master's degree",
+      "grade": "",
+      "schoolName": "Illinois Institute of Technology",
+      "description": "",
+      "activities": "",
+      "url": "https://www.linkedin.com/school/illinois-tech/",
+      "schoolId": "6328",
+      "logo": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_200_200/company-logo_200_200/0/1630559679535/illinois_institute_of_technology_logo?e=1747267200&v=beta&t=012r5t5h8I6XrfT6KxXfUJHHtAehNhTouo0JHf6nBbY",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_100_100/company-logo_100_100/0/1630559679535/illinois_institute_of_technology_logo?e=1747267200&v=beta&t=mpro4ZssOeaLe7eZINNVr8caIlJqaoPV1ObjFDKoCGo",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_400_400/company-logo_400_400/0/1630559679535/illinois_institute_of_technology_logo?e=1747267200&v=beta&t=y01SF5s8w16uJUfXsO4tztLXZmPlfX04q9bzQGWkaKk",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "start": {
+        "year": 2018,
+        "month": 0,
+        "day": 0
+      },
+      "end": {
+        "year": 2022,
+        "month": 0,
+        "day": 0
+      },
+      "fieldOfStudy": "Robotics Technology/Technician",
+      "degree": "Bachelor of Engineering - BE",
+      "grade": "",
+      "schoolName": "Engineering@MITWPU",
+      "description": "",
+      "activities": "",
+      "url": "https://www.linkedin.com/school/engineering-mitwpu/",
+      "schoolId": "68244289",
+      "logo": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHTeZk5PIJPQQ/company-logo_200_200/company-logo_200_200/0/1630646707499/engineering_mitwpu_logo?e=1747267200&v=beta&t=GjrE2lSGQg3Zx3y9LrCBNMOyBV2dDj85YDttip50r1Q",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHTeZk5PIJPQQ/company-logo_100_100/company-logo_100_100/0/1630646707499/engineering_mitwpu_logo?e=1747267200&v=beta&t=KgBWP3Jxp30xnz43-XW8EDF6wdz7C-z6mU_OIjV1s3g",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHTeZk5PIJPQQ/company-logo_400_400/company-logo_400_400/0/1630646707499/engineering_mitwpu_logo?e=1747267200&v=beta&t=A-GgSOorWxS6y6u_Ev9Y4H0-lo0VhvwwMQy8NDDVSUI",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    }
+  ],
+  "position": [
+    {
+      "companyId": 103191127,
+      "companyName": "Upase Automation and Controls",
+      "companyUsername": "upase-automation-and-controls",
+      "companyURL": "https://www.linkedin.com/company/upase-automation-and-controls/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQErSD_Xu9Bbhg/company-logo_400_400/company-logo_400_400/0/1716228931876?e=1747267200&v=beta&t=pIsQzU9QdW6yYce38ZBT6-BcYWLKS844GlF0Rjraqnk",
+      "companyIndustry": "Industrial Automation",
+      "companyStaffCountRange": "11 - 50",
+      "title": "Sales Representative",
+      "multiLocaleTitle": {
+        "en_US": "Sales Representative"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Upase Automation and Controls"
+      },
+      "location": "Pune/Pimpri-Chinchwad Area",
+      "description": "Connecting with Automotive Manufacturing plants to enhance accuracy and boost production volume through tailored automation solutions.",
+      "employmentType": "Part-time",
+      "start": {
+        "year": 2024,
+        "month": 5,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 6328,
+      "companyName": "Illinois Institute of Technology",
+      "companyUsername": "illinois-tech",
+      "companyURL": "https://www.linkedin.com/school/illinois-tech/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_400_400/company-logo_400_400/0/1630559679535/illinois_institute_of_technology_logo?e=1747267200&v=beta&t=y01SF5s8w16uJUfXsO4tztLXZmPlfX04q9bzQGWkaKk",
+      "companyIndustry": "Higher Education",
+      "companyStaffCountRange": "1001 - 5000",
+      "title": "Research Development Software Developer",
+      "multiLocaleTitle": {
+        "en_US": "Research Development Software Developer"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Illinois Institute of Technology"
+      },
+      "location": "Chicago, Illinois, United States",
+      "description": "Successfully developed a Mixed Reality application for Microsoft's Hololens, aimed at assisting construction supervisors in navigating complex sites from confined spaces by leading the project from inception to completion, demonstrating a comprehensive project management and technical expertise.\nEnhanced efficiency for construction supervisors by designing and implementing an innovative navigation solution within the application, which significantly improved spatial awareness through the integration of advanced spatial mapping algorithms.\nUtilized the Mixed Reality Toolkit in the Unity development environment with a high level of proficiency, which was pivotal in creating a highly interactive and user-friendly application interface, enhancing the overall user experience.",
+      "employmentType": "Full-time",
+      "start": {
+        "year": 2023,
+        "month": 3,
+        "day": 0
+      },
+      "end": {
+        "year": 2024,
+        "month": 8,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 91175743,
+      "companyName": "Funzy",
+      "companyUsername": "funzy-edu",
+      "companyURL": "https://www.linkedin.com/company/funzy-edu/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQH6zmhjR0wY-Q/company-logo_400_400/company-logo_400_400/0/1681669357704?e=1747267200&v=beta&t=FeHHCGfWsgrONYrE-yhNSzTISg8SzWPxrngfnz3heKA",
+      "companyIndustry": "Computer Games",
+      "companyStaffCountRange": "",
+      "title": "Founder",
+      "multiLocaleTitle": {
+        "en_US": "Founder"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Funzy"
+      },
+      "location": "India",
+      "description": "Successfully launched Funzy, a Kids Educational app, achieving over 5000+ organic users by conceptualizing, designing, and developing the app, which fosters problem-solving skills among children aged 3-5.\nReceived the prestigious Teacher\u2019s Approval Badge on the Play Store from Google, recognizing the app's educational value and adherence to quality standards set for children\u2019s learning applications.\nDeveloped over 15 engaging games from scratch using the Unity game engine and C#, implementing various gameplay mechanics and interactive features to enhance educational content delivery.\nThe success and market potential of Funzy were underscored by its acquisition by a prominent gaming studio in India in May 2024, validating the app's impact and the effectiveness of its problem-solving curriculum.\nImplemented AWS cloud services for seamless hosting of app updates, ensuring uptime and facilitating a 20% faster release cycle for new features.",
+      "employmentType": "Full-time",
+      "start": {
+        "year": 2022,
+        "month": 9,
+        "day": 0
+      },
+      "end": {
+        "year": 2024,
+        "month": 5,
+        "day": 0
+      }
+    }
+  ],
+  "fullPositions": [
+    {
+      "companyId": 103191127,
+      "companyName": "Upase Automation and Controls",
+      "companyUsername": "upase-automation-and-controls",
+      "companyURL": "https://www.linkedin.com/company/upase-automation-and-controls/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQErSD_Xu9Bbhg/company-logo_400_400/company-logo_400_400/0/1716228931876?e=1747267200&v=beta&t=pIsQzU9QdW6yYce38ZBT6-BcYWLKS844GlF0Rjraqnk",
+      "companyIndustry": "Industrial Automation",
+      "companyStaffCountRange": "11 - 50",
+      "title": "Sales Representative",
+      "multiLocaleTitle": {
+        "en_US": "Sales Representative"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Upase Automation and Controls"
+      },
+      "location": "Pune/Pimpri-Chinchwad Area",
+      "description": "Connecting with Automotive Manufacturing plants to enhance accuracy and boost production volume through tailored automation solutions.",
+      "employmentType": "Part-time",
+      "start": {
+        "year": 2024,
+        "month": 5,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 6328,
+      "companyName": "Illinois Institute of Technology",
+      "companyUsername": "illinois-tech",
+      "companyURL": "https://www.linkedin.com/school/illinois-tech/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_400_400/company-logo_400_400/0/1630559679535/illinois_institute_of_technology_logo?e=1747267200&v=beta&t=y01SF5s8w16uJUfXsO4tztLXZmPlfX04q9bzQGWkaKk",
+      "companyIndustry": "Higher Education",
+      "companyStaffCountRange": "1001 - 5000",
+      "title": "Research Development Software Developer",
+      "multiLocaleTitle": {
+        "en_US": "Research Development Software Developer"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Illinois Institute of Technology"
+      },
+      "location": "Chicago, Illinois, United States",
+      "description": "Successfully developed a Mixed Reality application for Microsoft's Hololens, aimed at assisting construction supervisors in navigating complex sites from confined spaces by leading the project from inception to completion, demonstrating a comprehensive project management and technical expertise.\nEnhanced efficiency for construction supervisors by designing and implementing an innovative navigation solution within the application, which significantly improved spatial awareness through the integration of advanced spatial mapping algorithms.\nUtilized the Mixed Reality Toolkit in the Unity development environment with a high level of proficiency, which was pivotal in creating a highly interactive and user-friendly application interface, enhancing the overall user experience.",
+      "employmentType": "Full-time",
+      "start": {
+        "year": 2023,
+        "month": 3,
+        "day": 0
+      },
+      "end": {
+        "year": 2024,
+        "month": 8,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 91175743,
+      "companyName": "Funzy",
+      "companyUsername": "funzy-edu",
+      "companyURL": "https://www.linkedin.com/company/funzy-edu/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQH6zmhjR0wY-Q/company-logo_400_400/company-logo_400_400/0/1681669357704?e=1747267200&v=beta&t=FeHHCGfWsgrONYrE-yhNSzTISg8SzWPxrngfnz3heKA",
+      "companyIndustry": "Computer Games",
+      "companyStaffCountRange": "",
+      "title": "Founder",
+      "multiLocaleTitle": {
+        "en_US": "Founder"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Funzy"
+      },
+      "location": "India",
+      "description": "Successfully launched Funzy, a Kids Educational app, achieving over 5000+ organic users by conceptualizing, designing, and developing the app, which fosters problem-solving skills among children aged 3-5.\nReceived the prestigious Teacher\u2019s Approval Badge on the Play Store from Google, recognizing the app's educational value and adherence to quality standards set for children\u2019s learning applications.\nDeveloped over 15 engaging games from scratch using the Unity game engine and C#, implementing various gameplay mechanics and interactive features to enhance educational content delivery.\nThe success and market potential of Funzy were underscored by its acquisition by a prominent gaming studio in India in May 2024, validating the app's impact and the effectiveness of its problem-solving curriculum.\nImplemented AWS cloud services for seamless hosting of app updates, ensuring uptime and facilitating a 20% faster release cycle for new features.",
+      "employmentType": "Full-time",
+      "start": {
+        "year": 2022,
+        "month": 9,
+        "day": 0
+      },
+      "end": {
+        "year": 2024,
+        "month": 5,
+        "day": 0
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Sales Operations",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Mechanical Engineering",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "PLC Programming",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Business Development",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Computer Science",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Short Films",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 2
+    },
+    {
+      "name": "Unity",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 2
+    },
+    {
+      "name": "C#",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 2
+    },
+    {
+      "name": "Game Development",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 3
+    }
+  ],
+  "projects": {},
+  "supportedLocales": [
+    {
+      "country": "US",
+      "language": "en"
+    }
+  ],
+  "multiLocaleFirstName": {
+    "en": "Siddhartha"
+  },
+  "multiLocaleLastName": {
+    "en": "Upase"
+  },
+  "multiLocaleHeadline": {
+    "en": "Full stack Developer| Passionate Business Development Professional | Sales Enthusiast"
+  }
+}
