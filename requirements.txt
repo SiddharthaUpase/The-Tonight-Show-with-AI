@@ -1,0 +1,12 @@
+Flask==3.0.0
+python-dotenv==1.0.0
+requests==2.31.0
+openai==1.12.0
+moviepy==1.0.3
+SpeechRecognition==3.10.0
+python-linkedin-v2==0.8.6
+pyttsx3==2.90
+Pillow==10.2.0
+numpy==1.26.4
+supabase-py==2.3.4 
+gdown>=4.7.1
