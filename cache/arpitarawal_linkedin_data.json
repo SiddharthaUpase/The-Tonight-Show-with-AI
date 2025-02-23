@@ -1,0 +1,1597 @@
+{
+  "id": 260111873,
+  "urn": "ACoAAA-A_gEBfv-hZlU5mfW_2rHgC9kQU1VAgdY",
+  "username": "arpitarawal",
+  "firstName": "Arpita",
+  "lastName": "Rawal",
+  "isCreator": true,
+  "isPremium": true,
+  "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728281446073?e=1745452800&v=beta&t=U-gYUu3C2yXqSDxiljdfDjlIYpSgdBVxF_QxQl5bikA",
+  "profilePictures": [
+    {
+      "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1728281446047?e=1745452800&v=beta&t=6Wrywxa6bER2n2OMgv04sQHFjK5Oa8ygfpfDxLMncKg",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728281446047?e=1745452800&v=beta&t=I7QsotG8L8CEMNH9UkxpjmWpeASKTpE0cED1nrsaRp0",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728281446047?e=1745452800&v=beta&t=HcbKX_4FWo_neYv9BRU4mF_vMDjaRF1NzvsmXgRJUzI",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728281446073?e=1745452800&v=beta&t=U-gYUu3C2yXqSDxiljdfDjlIYpSgdBVxF_QxQl5bikA",
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "backgroundImage": [
+    {
+      "width": 800,
+      "height": 200,
+      "url": "https://media.licdn.com/dms/image/v2/D5616AQHz24C6y7Ai0A/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1727943130574?e=1745452800&v=beta&t=LkNUYCRZvc1L3F_286x0oolCmhRRJHkbCdnZlQIseAk"
+    },
+    {
+      "width": 1400,
+      "height": 350,
+      "url": "https://media.licdn.com/dms/image/v2/D5616AQHz24C6y7Ai0A/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1727943130574?e=1745452800&v=beta&t=9SsWdZnw06jdjkrc-N03zBR3l_AJ4I1bb7zbxm19JFo"
+    }
+  ],
+  "summary": "Hello, I am Arpita - a Data Analytics Leader and Content Creator.\n\nWith over 12 years of experience in data analysis, BI reporting, and database management, I currently serve as the Manager of BI, Database, and Data Administration, where I lead teams in delivering impactful, data-driven solutions. My work spans industries such as Finance, Banking, Telecommunications, Manufacturing, Oil & Gas, and Sales Operations, driving innovation through data insights and collaboration.\n\nBeyond my professional role, I am passionate about giving back to the community. Through LinkedIn, I share job opportunities, career tips, and industry insights to help students and early professionals build their careers and navigate the job market with confidence.\n\nAreas of Expertise:\n\n\ud83d\udd39 BI & Analytics: Tableau, Power BI, QlikSense, Pentaho Kettle ETL\n\ud83d\udd39 Databases: MS SQL Server, MySQL, Oracle, Access, Excel (Advanced Analytics)\n\ud83d\udd39 Programming: Python, R, Java, HTML, JavaScript, SAS\n\ud83d\udd39 Machine Learning: Regression Analysis, Decision Trees, Na\u00efve Bayes, KNN\n\ud83d\udd39 Soft Skills: Agile Development, Team Management, Stakeholder Communication, Resource Planning\n\n\ud83c\udf93 I earned my degree from the Illinois Institute of Technology, Chicago, where I specialized in data management and IT consulting. This education has been foundational in my career, enabling me to tackle complex challenges with a combination of technical and strategic expertise.\n\n\ud83d\udca1 What I am Passionate About:\n- Mentoring and guiding professionals.\n- Sharing networking, job search tips, and resources for career growth.\n- Continuously learning and evolving in the field of data analytics.\n\n\ud83d\udcac Let\u2019s Connect ! Whether you are interested in discussing data solutions, career development, or opportunities to collaborate, I am always open to meaningful conversations. For inquiries, feel free to reach out via email at arpita6050@gmail.com",
+  "headline": "Manager- Analytics | 30K LinkedIn | Recruitment Ambassador | Helping Job Seekers Thrive in the US & Canada Market",
+  "geo": {
+    "country": "Canada",
+    "city": "Calgary, Alberta",
+    "full": "Calgary, Alberta, Canada",
+    "countryCode": "ca"
+  },
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "NATIVE_OR_BILINGUAL"
+    },
+    {
+      "name": "Hindi",
+      "proficiency": "NATIVE_OR_BILINGUAL"
+    }
+  ],
+  "educations": [
+    {
+      "start": {
+        "year": 2018,
+        "month": 8,
+        "day": 0
+      },
+      "end": {
+        "year": 2020,
+        "month": 5,
+        "day": 0
+      },
+      "fieldOfStudy": "Management Information Systems",
+      "degree": "Master's degree",
+      "grade": "GPA 3.8/4",
+      "schoolName": "Illinois Institute of Technology",
+      "description": "ITMD 523 Advanced Topics in Data Management (Adv SQL, Oracle, Excel)\nITMD 527 Data Analytics (Regression Models, R, Python )\nITMD 526 Data Warehousing (ETL, Tableau, SQL, Dimensional Modeling)\nITMD 521 Big Data (Hadoop, Spark, Yarn, Bash)\nITMD 510 Object-Oriented Application Development (Java, SQL)\nITMD 566 Service-Oriented Architectures (REST API)\nITMM 571 Project Management for ITM (Based on PMBOK)\nITMM 574 ITM Frameworks (ITIL)\nITMM 572 Process Engineering for IT Managers\nITMM 537 Vendor Management & Service Level Agreements (RFP, RFI, RFQ)",
+      "activities": "",
+      "url": "https://www.linkedin.com/school/illinois-tech/",
+      "schoolId": "6328",
+      "logo": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_200_200/company-logo_200_200/0/1630559679535/illinois_institute_of_technology_logo?e=1748476800&v=beta&t=REkxi4wiMcfxS2YK78J1jsVtvjFjjIca87rB_az8sZ0",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_100_100/company-logo_100_100/0/1630559679535/illinois_institute_of_technology_logo?e=1748476800&v=beta&t=tExQxT3WAdIhwAn47IRSRygHbUq_zuyBnaHrx0nsCHw",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_400_400/company-logo_400_400/0/1630559679535/illinois_institute_of_technology_logo?e=1748476800&v=beta&t=02qQI2hciZoDMCxufs9o_J_5CW0nDz5bZLR7lpsGtFE",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "start": {
+        "year": 2007,
+        "month": 0,
+        "day": 0
+      },
+      "end": {
+        "year": 2011,
+        "month": 0,
+        "day": 0
+      },
+      "fieldOfStudy": "Information Technology",
+      "degree": "Bachelor of Engineering - BE",
+      "grade": "",
+      "schoolName": "Rajiv Gandhi Technical University",
+      "description": "",
+      "activities": "Event Management",
+      "url": "https://www.linkedin.com/school/rajiv-gandhi-prodyogiki-vishwavidyalaya/",
+      "schoolId": "9133671",
+      "logo": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEAVRB3i7rHHg/company-logo_200_200/company-logo_200_200/0/1631319417069?e=1748476800&v=beta&t=AyypWNaIH4jQUNDw2a0jOxTNmwEa_CDes0wBQqH66ng",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEAVRB3i7rHHg/company-logo_100_100/company-logo_100_100/0/1631319417069?e=1748476800&v=beta&t=y-7wB0VMRvBI9pNiVP16jw4IdZhC9ALIrfOibTKkje0",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEAVRB3i7rHHg/company-logo_400_400/company-logo_400_400/0/1631319417069?e=1748476800&v=beta&t=5LIy_OIOJv6j4ORd_WlKBnyu525Xof8Q8bMhuuDc8zE",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    }
+  ],
+  "position": [
+    {
+      "companyId": 8417,
+      "companyName": "National Research Council Canada / Conseil national de recherches Canada",
+      "companyUsername": "national-research-council",
+      "companyURL": "https://www.linkedin.com/company/national-research-council/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQEtmusKSN4L_Q/company-logo_400_400/company-logo_400_400/0/1668707137784/national_research_council_logo?e=1748476800&v=beta&t=hnENyjg2nNeZiSlaDCLTk9EdLzrRMZ0chZ_Ys3EHoXg",
+      "companyIndustry": "Research",
+      "companyStaffCountRange": "1001 - 5000",
+      "title": "Manager - Business Intelligence, Database & Data Administration",
+      "multiLocaleTitle": {
+        "en_US": "Manager - Business Intelligence, Database & Data Administration"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "National Research Council Canada / Conseil national de recherches Canada"
+      },
+      "location": "Calgary, Alberta, Canada",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2024,
+        "month": 2,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 0,
+      "companyName": "Freelance",
+      "companyUsername": "",
+      "companyURL": "",
+      "companyLogo": "",
+      "companyIndustry": "",
+      "companyStaffCountRange": "",
+      "title": "Career Coach & Recruitment Ambassador",
+      "multiLocaleTitle": {
+        "en_US": "Career Coach & Recruitment Ambassador"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Freelance"
+      },
+      "location": "Seattle, Washington, United States",
+      "description": "",
+      "employmentType": "",
+      "start": {
+        "year": 2024,
+        "month": 5,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 18749,
+      "companyName": "Canadian Natural Resources Limited (CNRL)",
+      "companyUsername": "cnrl",
+      "companyURL": "https://www.linkedin.com/company/cnrl/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQHkRUBWBNIv2g/company-logo_400_400/company-logo_400_400/0/1726236593717/cnrl_logo?e=1748476800&v=beta&t=kNadg11yyyCTcklOjSwkgH6T84bsaQ_fYKumMXEEHqo",
+      "companyIndustry": "Oil & Energy",
+      "companyStaffCountRange": "10001+",
+      "title": "Business Data Consultant",
+      "multiLocaleTitle": {
+        "en_US": "Business Data Consultant"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Canadian Natural Resources Limited (CNRL)"
+      },
+      "location": "Calgary, Alberta, Canada",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2023,
+        "month": 8,
+        "day": 0
+      },
+      "end": {
+        "year": 2024,
+        "month": 1,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 47664328,
+      "companyName": "Lumen Technologies",
+      "companyUsername": "lumentechnologies",
+      "companyURL": "https://www.linkedin.com/company/lumentechnologies/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQF-zId_uB0Esw/company-logo_400_400/company-logo_400_400/0/1720024646067/lumentechnologies_logo?e=1748476800&v=beta&t=gKpx3dSR1oKObfQyw-kvHA9gyKDBVKzB-7ug-pjZhKc",
+      "companyIndustry": "Telecommunications",
+      "companyStaffCountRange": "10001+",
+      "title": "Senior Business Intelligence Analyst",
+      "multiLocaleTitle": {
+        "en_US": "Senior Business Intelligence Analyst"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Lumen Technologies"
+      },
+      "location": "Chicago, Illinois, United States",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2020,
+        "month": 10,
+        "day": 0
+      },
+      "end": {
+        "year": 2023,
+        "month": 7,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 4310,
+      "companyName": "TransUnion",
+      "companyUsername": "transunion",
+      "companyURL": "https://www.linkedin.com/company/transunion/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQEk0GcygRhErQ/company-logo_400_400/company-logo_400_400/0/1688367018553/transunion_logo?e=1748476800&v=beta&t=w5AhzS4AabJcWMfSsJNAffvTExWJdYC60vIkh7WWu3w",
+      "companyIndustry": "Information Technology & Services",
+      "companyStaffCountRange": "10001+",
+      "title": "Data Analytics & Project Management ",
+      "multiLocaleTitle": {
+        "en_US": "Data Analytics & Project Management "
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "TransUnion"
+      },
+      "location": "Chicago, Illinois, United States",
+      "description": "",
+      "employmentType": "",
+      "start": {
+        "year": 2019,
+        "month": 5,
+        "day": 0
+      },
+      "end": {
+        "year": 2020,
+        "month": 5,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 1231,
+      "companyName": "Symantec/Veritas Technologies LLC",
+      "companyUsername": "symantec",
+      "companyURL": "https://www.linkedin.com/company/symantec/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQG5LpKqnyGECA/company-logo_200_200/B56ZUBGYLMHoAI-/0/1739480206065/symantec_logo?e=1748476800&v=beta&t=RIvTc8xKt-Rb7H8TzcbMkOWR9-Lv8d7ZPgVN0v0U7WQ",
+      "companyIndustry": "Computer Software",
+      "companyStaffCountRange": "10001+",
+      "title": "Senior IT Applications Specialist",
+      "multiLocaleTitle": {
+        "en_US": "Senior IT Applications Specialist"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Symantec/Veritas Technologies LLC"
+      },
+      "location": "Pune Area, India",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2017,
+        "month": 6,
+        "day": 0
+      },
+      "end": {
+        "year": 2018,
+        "month": 8,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 1231,
+      "companyName": "Symantec/Veritas Technologies LLC",
+      "companyUsername": "symantec",
+      "companyURL": "https://www.linkedin.com/company/symantec/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQG5LpKqnyGECA/company-logo_200_200/B56ZUBGYLMHoAI-/0/1739480206065/symantec_logo?e=1748476800&v=beta&t=RIvTc8xKt-Rb7H8TzcbMkOWR9-Lv8d7ZPgVN0v0U7WQ",
+      "companyIndustry": "Computer Software",
+      "companyStaffCountRange": "10001+",
+      "title": "IT Applications Specialist",
+      "multiLocaleTitle": {
+        "en_US": "IT Applications Specialist"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Symantec/Veritas Technologies LLC"
+      },
+      "location": "Pune Area, India",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2015,
+        "month": 3,
+        "day": 0
+      },
+      "end": {
+        "year": 2017,
+        "month": 5,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 1283,
+      "companyName": "Infosys",
+      "companyUsername": "infosys",
+      "companyURL": "https://www.linkedin.com/company/infosys/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQE7Zf1-vvfbUA/company-logo_400_400/company-logo_400_400/0/1692876768583/infosys_logo?e=1748476800&v=beta&t=1v_Z9mfe79mQLJdNys7WMusFlnKbUkX8R4oy1SQJFJA",
+      "companyIndustry": "Information Technology & Services",
+      "companyStaffCountRange": "10001+",
+      "title": "Technology Analyst",
+      "multiLocaleTitle": {
+        "en_US": "Technology Analyst"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Infosys"
+      },
+      "location": "Pune",
+      "description": "",
+      "employmentType": "Full-time",
+      "start": {
+        "year": 2014,
+        "month": 10,
+        "day": 0
+      },
+      "end": {
+        "year": 2015,
+        "month": 2,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 4280,
+      "companyName": "Syntel",
+      "companyUsername": "syntel",
+      "companyURL": "https://www.linkedin.com/company/syntel/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C510BAQGSQ0r9bR2yVQ/company-logo_400_400/company-logo_400_400/0/1630605395368/syntel_logo?e=1748476800&v=beta&t=yzGX6cUDElI9iOtx1NcYfSd8hzzad9kdPMVNTZA59_4",
+      "companyIndustry": "Information Technology & Services",
+      "companyStaffCountRange": "10001+",
+      "title": "Business Data Engineer",
+      "multiLocaleTitle": {
+        "en_US": "Business Data Engineer"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Syntel"
+      },
+      "location": "Pune Area, India",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2011,
+        "month": 10,
+        "day": 0
+      },
+      "end": {
+        "year": 2014,
+        "month": 8,
+        "day": 0
+      }
+    }
+  ],
+  "fullPositions": [
+    {
+      "companyId": 8417,
+      "companyName": "National Research Council Canada / Conseil national de recherches Canada",
+      "companyUsername": "national-research-council",
+      "companyURL": "https://www.linkedin.com/company/national-research-council/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQEtmusKSN4L_Q/company-logo_400_400/company-logo_400_400/0/1668707137784/national_research_council_logo?e=1748476800&v=beta&t=hnENyjg2nNeZiSlaDCLTk9EdLzrRMZ0chZ_Ys3EHoXg",
+      "companyIndustry": "Research",
+      "companyStaffCountRange": "1001 - 5000",
+      "title": "Manager - Business Intelligence, Database & Data Administration",
+      "multiLocaleTitle": {
+        "en_US": "Manager - Business Intelligence, Database & Data Administration"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "National Research Council Canada / Conseil national de recherches Canada"
+      },
+      "location": "Calgary, Alberta, Canada",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2024,
+        "month": 2,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 0,
+      "companyName": "Freelance",
+      "companyUsername": "",
+      "companyURL": "",
+      "companyLogo": "",
+      "companyIndustry": "",
+      "companyStaffCountRange": "",
+      "title": "Career Coach & Recruitment Ambassador",
+      "multiLocaleTitle": {
+        "en_US": "Career Coach & Recruitment Ambassador"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Freelance"
+      },
+      "location": "Seattle, Washington, United States",
+      "description": "",
+      "employmentType": "",
+      "start": {
+        "year": 2024,
+        "month": 5,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 18749,
+      "companyName": "Canadian Natural Resources Limited (CNRL)",
+      "companyUsername": "cnrl",
+      "companyURL": "https://www.linkedin.com/company/cnrl/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQHkRUBWBNIv2g/company-logo_400_400/company-logo_400_400/0/1726236593717/cnrl_logo?e=1748476800&v=beta&t=kNadg11yyyCTcklOjSwkgH6T84bsaQ_fYKumMXEEHqo",
+      "companyIndustry": "Oil & Energy",
+      "companyStaffCountRange": "10001+",
+      "title": "Business Data Consultant",
+      "multiLocaleTitle": {
+        "en_US": "Business Data Consultant"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Canadian Natural Resources Limited (CNRL)"
+      },
+      "location": "Calgary, Alberta, Canada",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2023,
+        "month": 8,
+        "day": 0
+      },
+      "end": {
+        "year": 2024,
+        "month": 1,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 47664328,
+      "companyName": "Lumen Technologies",
+      "companyUsername": "lumentechnologies",
+      "companyURL": "https://www.linkedin.com/company/lumentechnologies/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQF-zId_uB0Esw/company-logo_400_400/company-logo_400_400/0/1720024646067/lumentechnologies_logo?e=1748476800&v=beta&t=gKpx3dSR1oKObfQyw-kvHA9gyKDBVKzB-7ug-pjZhKc",
+      "companyIndustry": "Telecommunications",
+      "companyStaffCountRange": "10001+",
+      "title": "Senior Business Intelligence Analyst",
+      "multiLocaleTitle": {
+        "en_US": "Senior Business Intelligence Analyst"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Lumen Technologies"
+      },
+      "location": "Chicago, Illinois, United States",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2020,
+        "month": 10,
+        "day": 0
+      },
+      "end": {
+        "year": 2023,
+        "month": 7,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 4310,
+      "companyName": "TransUnion",
+      "companyUsername": "transunion",
+      "companyURL": "https://www.linkedin.com/company/transunion/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQEk0GcygRhErQ/company-logo_400_400/company-logo_400_400/0/1688367018553/transunion_logo?e=1748476800&v=beta&t=w5AhzS4AabJcWMfSsJNAffvTExWJdYC60vIkh7WWu3w",
+      "companyIndustry": "Information Technology & Services",
+      "companyStaffCountRange": "10001+",
+      "title": "Data Analytics & Project Management ",
+      "multiLocaleTitle": {
+        "en_US": "Data Analytics & Project Management "
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "TransUnion"
+      },
+      "location": "Chicago, Illinois, United States",
+      "description": "",
+      "employmentType": "",
+      "start": {
+        "year": 2019,
+        "month": 5,
+        "day": 0
+      },
+      "end": {
+        "year": 2020,
+        "month": 5,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 1231,
+      "companyName": "Symantec/Veritas Technologies LLC",
+      "companyUsername": "symantec",
+      "companyURL": "https://www.linkedin.com/company/symantec/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQG5LpKqnyGECA/company-logo_200_200/B56ZUBGYLMHoAI-/0/1739480206065/symantec_logo?e=1748476800&v=beta&t=RIvTc8xKt-Rb7H8TzcbMkOWR9-Lv8d7ZPgVN0v0U7WQ",
+      "companyIndustry": "Computer Software",
+      "companyStaffCountRange": "10001+",
+      "title": "Senior IT Applications Specialist",
+      "multiLocaleTitle": {
+        "en_US": "Senior IT Applications Specialist"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Symantec/Veritas Technologies LLC"
+      },
+      "location": "Pune Area, India",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2017,
+        "month": 6,
+        "day": 0
+      },
+      "end": {
+        "year": 2018,
+        "month": 8,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 1231,
+      "companyName": "Symantec/Veritas Technologies LLC",
+      "companyUsername": "symantec",
+      "companyURL": "https://www.linkedin.com/company/symantec/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQG5LpKqnyGECA/company-logo_200_200/B56ZUBGYLMHoAI-/0/1739480206065/symantec_logo?e=1748476800&v=beta&t=RIvTc8xKt-Rb7H8TzcbMkOWR9-Lv8d7ZPgVN0v0U7WQ",
+      "companyIndustry": "Computer Software",
+      "companyStaffCountRange": "10001+",
+      "title": "IT Applications Specialist",
+      "multiLocaleTitle": {
+        "en_US": "IT Applications Specialist"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Symantec/Veritas Technologies LLC"
+      },
+      "location": "Pune Area, India",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2015,
+        "month": 3,
+        "day": 0
+      },
+      "end": {
+        "year": 2017,
+        "month": 5,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 1283,
+      "companyName": "Infosys",
+      "companyUsername": "infosys",
+      "companyURL": "https://www.linkedin.com/company/infosys/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D4D0BAQE7Zf1-vvfbUA/company-logo_400_400/company-logo_400_400/0/1692876768583/infosys_logo?e=1748476800&v=beta&t=1v_Z9mfe79mQLJdNys7WMusFlnKbUkX8R4oy1SQJFJA",
+      "companyIndustry": "Information Technology & Services",
+      "companyStaffCountRange": "10001+",
+      "title": "Technology Analyst",
+      "multiLocaleTitle": {
+        "en_US": "Technology Analyst"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Infosys"
+      },
+      "location": "Pune",
+      "description": "",
+      "employmentType": "Full-time",
+      "start": {
+        "year": 2014,
+        "month": 10,
+        "day": 0
+      },
+      "end": {
+        "year": 2015,
+        "month": 2,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 4280,
+      "companyName": "Syntel",
+      "companyUsername": "syntel",
+      "companyURL": "https://www.linkedin.com/company/syntel/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C510BAQGSQ0r9bR2yVQ/company-logo_400_400/company-logo_400_400/0/1630605395368/syntel_logo?e=1748476800&v=beta&t=yzGX6cUDElI9iOtx1NcYfSd8hzzad9kdPMVNTZA59_4",
+      "companyIndustry": "Information Technology & Services",
+      "companyStaffCountRange": "10001+",
+      "title": "Business Data Engineer",
+      "multiLocaleTitle": {
+        "en_US": "Business Data Engineer"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Syntel"
+      },
+      "location": "Pune Area, India",
+      "description": "",
+      "employmentType": "Permanent Full-time",
+      "start": {
+        "year": 2011,
+        "month": 10,
+        "day": 0
+      },
+      "end": {
+        "year": 2014,
+        "month": 8,
+        "day": 0
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "Career Counseling",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Career Opportunities",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Training",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Job Search Strategies",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Coaching & Mentoring",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Leadership",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "PowerBI",
+      "passedSkillAssessment": true
+    },
+    {
+      "name": "Career Development",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "New Hires",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Mentoring New Hires",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Management",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Applicant Tracking Systems",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Hiring",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Recruiting",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Data Management",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Software Project Management",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Research Data Management",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Distributed Team Management",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Program Management",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Toad",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Microsoft Power BI",
+      "passedSkillAssessment": true
+    },
+    {
+      "name": "SQL",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 18
+    },
+    {
+      "name": "Tableau",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "SharePoint",
+      "passedSkillAssessment": true
+    },
+    {
+      "name": "Data Presentation",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Extract, Transform, Load (ETL)",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Machine Learning",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Microsoft Azure",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Qlik Sense",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Data Modeling",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Business Intelligence Tools",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Requirements Analysis",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 6
+    },
+    {
+      "name": "Data Visualization",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Stakeholder Management",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Independent Contributor",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Project Management",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "GitHub",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Agile Project Management",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Data Science",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Agile & Waterfall Methodologies",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 4
+    },
+    {
+      "name": "User Acceptance Testing",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 4
+    },
+    {
+      "name": "Data Warehousing",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Data Analysis",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "HTML",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 13
+    },
+    {
+      "name": "CSS",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 8
+    },
+    {
+      "name": "JavaScript",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 6
+    },
+    {
+      "name": "PL/SQL",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 3
+    },
+    {
+      "name": "jQuery",
+      "passedSkillAssessment": false,
+      "endorsementsCount": 3
+    },
+    {
+      "name": "Microsoft Access",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Visio",
+      "passedSkillAssessment": false
+    }
+  ],
+  "courses": [
+    {
+      "name": "Advanced Topics in Data Management",
+      "number": ""
+    },
+    {
+      "name": "Client/Server Technologies and Applications",
+      "number": ""
+    },
+    {
+      "name": "Data Analytics",
+      "number": ""
+    },
+    {
+      "name": "Data Warehousing",
+      "number": ""
+    },
+    {
+      "name": "Infomation Technology and Management Frameworks ",
+      "number": ""
+    },
+    {
+      "name": "Object Oriented Application Development",
+      "number": ""
+    },
+    {
+      "name": "Process Engineering for IT Managers",
+      "number": ""
+    },
+    {
+      "name": "Project Management",
+      "number": ""
+    },
+    {
+      "name": "Service Oriented Architecture",
+      "number": ""
+    },
+    {
+      "name": "Vendor Management",
+      "number": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Azure Data Lake for Developers",
+      "start": {
+        "year": 2023,
+        "month": 7,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "LinkedIn",
+      "company": {
+        "name": "LinkedIn",
+        "universalName": "linkedin",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1748476800&v=beta&t=cITZJnO09yqHBlZ_wKJ4HUFda2YMvLfYDFgPRHLE3mg",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": "SQL - MySQL for Data Analytics and Business Intelligence",
+      "start": {
+        "year": 2020,
+        "month": 8,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "Udemy",
+      "company": {
+        "name": "Udemy",
+        "universalName": "udemy",
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1748476800&v=beta&t=1uSVxPbKWU__qGhLH1N9spM3MBQjiJiN5Y6WQKyczuU",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": "Tableau Analyst",
+      "start": {
+        "year": 2020,
+        "month": 6,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "Tableau Software",
+      "company": {
+        "name": "Tableau",
+        "universalName": "tableau-software",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQGbNutqXFCq8g/company-logo_200_200/company-logo_200_200/0/1630636446931/tableau_software_logo?e=1748476800&v=beta&t=2dW_CzyimprMCGYJko1N7H9EsMfRbrt_lWdGOdxzVAY",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": "A-Z:Hands-On Tableau Training For Data Science",
+      "start": {
+        "year": 2020,
+        "month": 5,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "Udemy",
+      "company": {
+        "name": "Udemy",
+        "universalName": "udemy",
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1748476800&v=beta&t=1uSVxPbKWU__qGhLH1N9spM3MBQjiJiN5Y6WQKyczuU",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": "Product Management: Building a Product Roadmap",
+      "start": {
+        "year": 2020,
+        "month": 5,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "LinkedIn",
+      "company": {
+        "name": "LinkedIn",
+        "universalName": "linkedin",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1748476800&v=beta&t=cITZJnO09yqHBlZ_wKJ4HUFda2YMvLfYDFgPRHLE3mg",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": "60 Minute Scrum Course",
+      "start": {
+        "year": 2020,
+        "month": 2,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "Udemy",
+      "company": {
+        "name": "Udemy",
+        "universalName": "udemy",
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1748476800&v=beta&t=1uSVxPbKWU__qGhLH1N9spM3MBQjiJiN5Y6WQKyczuU",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": "Agile With Scrum - From Beginner to Advanced",
+      "start": {
+        "year": 2020,
+        "month": 2,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "Udemy",
+      "company": {
+        "name": "Udemy",
+        "universalName": "udemy",
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1748476800&v=beta&t=1uSVxPbKWU__qGhLH1N9spM3MBQjiJiN5Y6WQKyczuU",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": "Ten Excel Features Every Analyst Should Know",
+      "start": {
+        "year": 2020,
+        "month": 2,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "Udemy",
+      "company": {
+        "name": "Udemy",
+        "universalName": "udemy",
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1748476800&v=beta&t=1uSVxPbKWU__qGhLH1N9spM3MBQjiJiN5Y6WQKyczuU",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": "Microsoft SharePoint 2010 Certified Technology Specialist",
+      "start": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "Microsoft",
+      "company": {
+        "name": "Microsoft",
+        "universalName": "microsoft",
+        "logo": "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_200_200/company-logo_200_200/0/1630652622688/microsoft_logo?e=1748476800&v=beta&t=cXVZCE8mOgVaEaaKyfowShM37-NEhqJEOr76Lys85q8",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    }
+  ],
+  "honors": [
+    {
+      "title": "Extraordinary Customer Impact/Outcomes",
+      "description": "For embodying the Veritas Value \u201cCreate Unique Value for customers every day\u201d.",
+      "issuer": "Senior Manager,  Sales & Marketing Operations (Global)",
+      "issuerLogo": "https://media.licdn.com/dms/image/v2/D560BAQG5LpKqnyGECA/company-logo_200_200/B56ZUBGYLMHoAI-/0/1739480206065/symantec_logo?e=1748476800&v=beta&t=RIvTc8xKt-Rb7H8TzcbMkOWR9-Lv8d7ZPgVN0v0U7WQ",
+      "issuedOn": {
+        "year": 2017,
+        "month": 3,
+        "day": 0
+      }
+    },
+    {
+      "title": "Extraordinary Customer Impact/Outcomes",
+      "description": "In recognition for the development of Coverage portal for Europe, Middle East and Africa team to handle Salesforce.com change requests and territory management in most efficient way.",
+      "issuer": "Senior Manager,  Sales & Marketing Operations (Global)",
+      "issuerLogo": "https://media.licdn.com/dms/image/v2/D560BAQG5LpKqnyGECA/company-logo_200_200/B56ZUBGYLMHoAI-/0/1739480206065/symantec_logo?e=1748476800&v=beta&t=RIvTc8xKt-Rb7H8TzcbMkOWR9-Lv8d7ZPgVN0v0U7WQ",
+      "issuedOn": {
+        "year": 2016,
+        "month": 10,
+        "day": 0
+      }
+    },
+    {
+      "title": "Agility & Boldness",
+      "description": "For approach and agility which enabled to fill a gap in a current business process and deliver the solution within a short time frame.",
+      "issuer": "Stakeholder, Sales & Marketing Operations (Global)",
+      "issuerLogo": "https://media.licdn.com/dms/image/v2/D560BAQG5LpKqnyGECA/company-logo_200_200/B56ZUBGYLMHoAI-/0/1739480206065/symantec_logo?e=1748476800&v=beta&t=RIvTc8xKt-Rb7H8TzcbMkOWR9-Lv8d7ZPgVN0v0U7WQ",
+      "issuedOn": {
+        "year": 2016,
+        "month": 8,
+        "day": 0
+      }
+    },
+    {
+      "title": "Passion & Focus",
+      "description": "In recognition of efforts and dedication to update the global business operations intake site.",
+      "issuer": "Stakeholder, Sales & Marketing Operations (Global)",
+      "issuerLogo": "https://media.licdn.com/dms/image/v2/D560BAQG5LpKqnyGECA/company-logo_200_200/B56ZUBGYLMHoAI-/0/1739480206065/symantec_logo?e=1748476800&v=beta&t=RIvTc8xKt-Rb7H8TzcbMkOWR9-Lv8d7ZPgVN0v0U7WQ",
+      "issuedOn": {
+        "year": 2016,
+        "month": 3,
+        "day": 0
+      }
+    },
+    {
+      "title": "Winning thru Focused & Collaborative Teams",
+      "description": "In recognition of consistence focus on stakeholder satisfaction and helping them automating the process through SharePoint.",
+      "issuer": "Senior Manager,  Sales & Marketing Operations (Global)",
+      "issuerLogo": "https://media.licdn.com/dms/image/v2/D560BAQG5LpKqnyGECA/company-logo_200_200/B56ZUBGYLMHoAI-/0/1739480206065/symantec_logo?e=1748476800&v=beta&t=RIvTc8xKt-Rb7H8TzcbMkOWR9-Lv8d7ZPgVN0v0U7WQ",
+      "issuedOn": {
+        "year": 2016,
+        "month": 3,
+        "day": 0
+      }
+    },
+    {
+      "title": "Results/Progress Beyond Expectations",
+      "description": "",
+      "issuer": "Manager,  Sales & Marketing Operations (Global)",
+      "issuerLogo": "https://media.licdn.com/dms/image/v2/D560BAQG5LpKqnyGECA/company-logo_200_200/B56ZUBGYLMHoAI-/0/1739480206065/symantec_logo?e=1748476800&v=beta&t=RIvTc8xKt-Rb7H8TzcbMkOWR9-Lv8d7ZPgVN0v0U7WQ",
+      "issuedOn": {
+        "year": 2015,
+        "month": 10,
+        "day": 0
+      }
+    },
+    {
+      "title": "Syntel Core Values Award - SIMPLE",
+      "description": "Got awarded Syntel's Core Value Award - Simple, which is given in recognition for providing simple solutions for complex development problems.",
+      "issuer": "Syntel Inc",
+      "issuerLogo": "https://media.licdn.com/dms/image/v2/C510BAQGSQ0r9bR2yVQ/company-logo_400_400/company-logo_400_400/0/1630605395368/syntel_logo?e=1748476800&v=beta&t=yzGX6cUDElI9iOtx1NcYfSd8hzzad9kdPMVNTZA59_4",
+      "issuedOn": {
+        "year": 2012,
+        "month": 7,
+        "day": 0
+      }
+    }
+  ],
+  "projects": {
+    "total": 6,
+    "items": [
+      {
+        "title": "ETL & Insights on COVID-19 Data",
+        "description": "Tools & Technologies  -Pentaho Kettle ETL, SQL, Tableau, Power BI\n\nTo represent the impact of COVID-19 all around the globe, I have extracted the data from various sources and transformed it using Pentaho Kettle. Later, I have designed dimensional modeling with star schema and used MySQL Server to store the normalized data. Finally, using Tableau I have provided insights on impacted countries, states, recovery rate, testing rate, gender, symptoms, and the age group infected the most with coronavirus.",
+        "start": {
+          "year": 2020,
+          "month": 2,
+          "day": 0
+        },
+        "end": {
+          "year": 2020,
+          "month": 5,
+          "day": 0
+        },
+        "contributors": [
+          {
+            "urn": "ACoAAA-A_gEBfv-hZlU5mfW_2rHgC9kQU1VAgdY",
+            "username": "arpitarawal",
+            "fullName": "Arpita Rawal",
+            "firstName": "Arpita",
+            "lastName": "Rawal",
+            "profilePicture": [
+              {
+                "width": 100,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1728281446047?e=1745452800&v=beta&t=6Wrywxa6bER2n2OMgv04sQHFjK5Oa8ygfpfDxLMncKg"
+              },
+              {
+                "width": 200,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728281446047?e=1745452800&v=beta&t=I7QsotG8L8CEMNH9UkxpjmWpeASKTpE0cED1nrsaRp0"
+              },
+              {
+                "width": 400,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728281446047?e=1745452800&v=beta&t=HcbKX_4FWo_neYv9BRU4mF_vMDjaRF1NzvsmXgRJUzI"
+              },
+              {
+                "width": 800,
+                "height": 800,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728281446073?e=1745452800&v=beta&t=U-gYUu3C2yXqSDxiljdfDjlIYpSgdBVxF_QxQl5bikA"
+              }
+            ],
+            "headline": "Manager- Analytics | 30K LinkedIn | Recruitment Ambassador | Helping Job Seekers Thrive in the US & Canada Market",
+            "url": "https://www.linkedin.com/in/arpitarawal"
+          }
+        ]
+      },
+      {
+        "title": "Service Oriented Architecture - QuickPay",
+        "description": "",
+        "start": {
+          "year": 2019,
+          "month": 8,
+          "day": 0
+        },
+        "end": {
+          "year": 2019,
+          "month": 12,
+          "day": 0
+        },
+        "contributors": [
+          {
+            "urn": "ACoAAA-A_gEBfv-hZlU5mfW_2rHgC9kQU1VAgdY",
+            "username": "arpitarawal",
+            "fullName": "Arpita Rawal",
+            "firstName": "Arpita",
+            "lastName": "Rawal",
+            "profilePicture": [
+              {
+                "width": 100,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1728281446047?e=1745452800&v=beta&t=6Wrywxa6bER2n2OMgv04sQHFjK5Oa8ygfpfDxLMncKg"
+              },
+              {
+                "width": 200,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728281446047?e=1745452800&v=beta&t=I7QsotG8L8CEMNH9UkxpjmWpeASKTpE0cED1nrsaRp0"
+              },
+              {
+                "width": 400,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728281446047?e=1745452800&v=beta&t=HcbKX_4FWo_neYv9BRU4mF_vMDjaRF1NzvsmXgRJUzI"
+              },
+              {
+                "width": 800,
+                "height": 800,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728281446073?e=1745452800&v=beta&t=U-gYUu3C2yXqSDxiljdfDjlIYpSgdBVxF_QxQl5bikA"
+              }
+            ],
+            "headline": "Manager- Analytics | 30K LinkedIn | Recruitment Ambassador | Helping Job Seekers Thrive in the US & Canada Market",
+            "url": "https://www.linkedin.com/in/arpitarawal"
+          }
+        ]
+      },
+      {
+        "title": "Credit Card Prediction Analytics",
+        "description": "Tools & Technologies - Predictive Modeling, R, Python\n\nThe project\u2019s scope is to predict which customers are likely to fall under the defaulter\u2019s category and what are the chances of increasing the credit limit of the customers depending upon their repayment. I have implemented logistic regression and K nearest neighbor's model to perform data analytics.",
+        "start": {
+          "year": 2019,
+          "month": 2,
+          "day": 0
+        },
+        "end": {
+          "year": 2019,
+          "month": 5,
+          "day": 0
+        },
+        "contributors": [
+          {
+            "urn": "ACoAAA-A_gEBfv-hZlU5mfW_2rHgC9kQU1VAgdY",
+            "username": "arpitarawal",
+            "fullName": "Arpita Rawal",
+            "firstName": "Arpita",
+            "lastName": "Rawal",
+            "profilePicture": [
+              {
+                "width": 100,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1728281446047?e=1745452800&v=beta&t=6Wrywxa6bER2n2OMgv04sQHFjK5Oa8ygfpfDxLMncKg"
+              },
+              {
+                "width": 200,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728281446047?e=1745452800&v=beta&t=I7QsotG8L8CEMNH9UkxpjmWpeASKTpE0cED1nrsaRp0"
+              },
+              {
+                "width": 400,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728281446047?e=1745452800&v=beta&t=HcbKX_4FWo_neYv9BRU4mF_vMDjaRF1NzvsmXgRJUzI"
+              },
+              {
+                "width": 800,
+                "height": 800,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728281446073?e=1745452800&v=beta&t=U-gYUu3C2yXqSDxiljdfDjlIYpSgdBVxF_QxQl5bikA"
+              }
+            ],
+            "headline": "Manager- Analytics | 30K LinkedIn | Recruitment Ambassador | Helping Job Seekers Thrive in the US & Canada Market",
+            "url": "https://www.linkedin.com/in/arpitarawal"
+          }
+        ]
+      },
+      {
+        "title": "Process Improvement in Healthcare",
+        "description": "According to American Health Information Management Association, the amount of duplicate records in most hospitals is estimated to be between 5% to 10% of all the stored records. To resolve this issues we are proposing the use of bio-metric security to access the health care records. Biometric scanning device to be placed in ambulance and hospital that gives a quick access to the medical and personal records. This will provide hospitals/physicians a central location with all the health details of a person and can be used in emergency medical situation when a patient is unconscious. In this project we have shown the \"AS-IS\" and \"TO-BE\" representation along with the process flow, root cause analysis, limitations, and future scope.\n\n",
+        "start": {
+          "year": 2019,
+          "month": 1,
+          "day": 0
+        },
+        "end": {
+          "year": 2019,
+          "month": 5,
+          "day": 0
+        },
+        "contributors": [
+          {
+            "urn": "ACoAAA-A_gEBfv-hZlU5mfW_2rHgC9kQU1VAgdY",
+            "username": "arpitarawal",
+            "fullName": "Arpita Rawal",
+            "firstName": "Arpita",
+            "lastName": "Rawal",
+            "profilePicture": [
+              {
+                "width": 100,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1728281446047?e=1745452800&v=beta&t=6Wrywxa6bER2n2OMgv04sQHFjK5Oa8ygfpfDxLMncKg"
+              },
+              {
+                "width": 200,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728281446047?e=1745452800&v=beta&t=I7QsotG8L8CEMNH9UkxpjmWpeASKTpE0cED1nrsaRp0"
+              },
+              {
+                "width": 400,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728281446047?e=1745452800&v=beta&t=HcbKX_4FWo_neYv9BRU4mF_vMDjaRF1NzvsmXgRJUzI"
+              },
+              {
+                "width": 800,
+                "height": 800,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728281446073?e=1745452800&v=beta&t=U-gYUu3C2yXqSDxiljdfDjlIYpSgdBVxF_QxQl5bikA"
+              }
+            ],
+            "headline": "Manager- Analytics | 30K LinkedIn | Recruitment Ambassador | Helping Job Seekers Thrive in the US & Canada Market",
+            "url": "https://www.linkedin.com/in/arpitarawal"
+          }
+        ]
+      },
+      {
+        "title": "Courier Management System",
+        "description": "Tools & Technologies - Java FX, MySQL, Java SE                                             \n\nDesigned and implemented a Courier Management System which allows user to place a courier to be shipped within a country from one city to another. Along with that users can register, generate invoice, change statuses of the order, view order, cancel the order, and update profile.",
+        "start": {
+          "year": 2018,
+          "month": 8,
+          "day": 0
+        },
+        "end": {
+          "year": 2018,
+          "month": 12,
+          "day": 0
+        },
+        "contributors": [
+          {
+            "urn": "ACoAAA-A_gEBfv-hZlU5mfW_2rHgC9kQU1VAgdY",
+            "username": "arpitarawal",
+            "fullName": "Arpita Rawal",
+            "firstName": "Arpita",
+            "lastName": "Rawal",
+            "profilePicture": [
+              {
+                "width": 100,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1728281446047?e=1745452800&v=beta&t=6Wrywxa6bER2n2OMgv04sQHFjK5Oa8ygfpfDxLMncKg"
+              },
+              {
+                "width": 200,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728281446047?e=1745452800&v=beta&t=I7QsotG8L8CEMNH9UkxpjmWpeASKTpE0cED1nrsaRp0"
+              },
+              {
+                "width": 400,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728281446047?e=1745452800&v=beta&t=HcbKX_4FWo_neYv9BRU4mF_vMDjaRF1NzvsmXgRJUzI"
+              },
+              {
+                "width": 800,
+                "height": 800,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728281446073?e=1745452800&v=beta&t=U-gYUu3C2yXqSDxiljdfDjlIYpSgdBVxF_QxQl5bikA"
+              }
+            ],
+            "headline": "Manager- Analytics | 30K LinkedIn | Recruitment Ambassador | Helping Job Seekers Thrive in the US & Canada Market",
+            "url": "https://www.linkedin.com/in/arpitarawal"
+          }
+        ]
+      },
+      {
+        "title": "Design and Implementation of Remote Monitoring System",
+        "description": "In this paper, we have presented the issues faced by St. Jude healthcare services in remotely monitoring the pacemaker device. By using a BlueSync technology we have proposed a new design by which the pacemaker can be monitored remotely and eliminates the requirement of a transmitter located at patients\u2019 homes. Also, we have shown how the release and deployment strategy comes into the picture in order to successfully release this new design. Finally, we have presented some of the major event management procedures which must be followed for the successful operation of this new device.",
+        "start": {
+          "year": 2018,
+          "month": 8,
+          "day": 0
+        },
+        "end": {
+          "year": 2018,
+          "month": 12,
+          "day": 0
+        },
+        "contributors": [
+          {
+            "urn": "ACoAAA-A_gEBfv-hZlU5mfW_2rHgC9kQU1VAgdY",
+            "username": "arpitarawal",
+            "fullName": "Arpita Rawal",
+            "firstName": "Arpita",
+            "lastName": "Rawal",
+            "profilePicture": [
+              {
+                "width": 100,
+                "height": 100,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1728281446047?e=1745452800&v=beta&t=6Wrywxa6bER2n2OMgv04sQHFjK5Oa8ygfpfDxLMncKg"
+              },
+              {
+                "width": 200,
+                "height": 200,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1728281446047?e=1745452800&v=beta&t=I7QsotG8L8CEMNH9UkxpjmWpeASKTpE0cED1nrsaRp0"
+              },
+              {
+                "width": 400,
+                "height": 400,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728281446047?e=1745452800&v=beta&t=HcbKX_4FWo_neYv9BRU4mF_vMDjaRF1NzvsmXgRJUzI"
+              },
+              {
+                "width": 800,
+                "height": 800,
+                "url": "https://media.licdn.com/dms/image/v2/D5603AQFLAxkDtb6Vmw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728281446073?e=1745452800&v=beta&t=U-gYUu3C2yXqSDxiljdfDjlIYpSgdBVxF_QxQl5bikA"
+              }
+            ],
+            "headline": "Manager- Analytics | 30K LinkedIn | Recruitment Ambassador | Helping Job Seekers Thrive in the US & Canada Market",
+            "url": "https://www.linkedin.com/in/arpitarawal"
+          }
+        ]
+      }
+    ]
+  },
+  "supportedLocales": [
+    {
+      "country": "US",
+      "language": "en"
+    }
+  ],
+  "multiLocaleFirstName": {
+    "en": "Arpita"
+  },
+  "multiLocaleLastName": {
+    "en": "Rawal"
+  },
+  "multiLocaleHeadline": {
+    "en": "Manager- Analytics | 30K LinkedIn | Recruitment Ambassador | Helping Job Seekers Thrive in the US & Canada Market"
+  }
+}

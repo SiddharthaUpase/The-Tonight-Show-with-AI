@@ -1,6 +1,7 @@
 import os
 from supabase import create_client, Client
 from datetime import datetime
+import traceback
 
 class SupabaseService:
     def __init__(self):
@@ -12,6 +13,9 @@ class SupabaseService:
         try:
             self.supabase: Client = create_client(supabase_url, supabase_key)
         except Exception as e:
+            print(f"Failed to initialize Supabase: {str(e)}")
+            print("Full error trace:")
+            print(traceback.format_exc())
             raise Exception(f"Failed to initialize Supabase: {str(e)}")
 
     def upload_video(self, file_path: str, user_id: str) -> str:
@@ -22,9 +26,16 @@ class SupabaseService:
             file_name = f"{timestamp}.mp4"
             bucket_name = "videos"
             
+            print(f"Attempting to upload file: {file_path}")
+            print(f"File exists: {os.path.exists(file_path)}")
+            if os.path.exists(file_path):
+                print(f"File size: {os.path.getsize(file_path)} bytes")
+            
             # Read the file in binary mode
             with open(file_path, 'rb') as f:
                 file_data = f.read()
+            
+            print("File read successfully, attempting upload to Supabase")
             
             # Upload to Supabase Storage
             response = self.supabase.storage \
@@ -34,6 +45,8 @@ class SupabaseService:
                     file=file_data
                 )
             
+            print(f"Upload response: {response}")
+            
             if isinstance(response, dict) and 'error' in response:
                 raise Exception(f"Upload failed: {response['error']}")
             
@@ -41,6 +54,8 @@ class SupabaseService:
             public_url = self.supabase.storage \
                 .from_(bucket_name) \
                 .get_public_url(file_name)
+            
+            print(f"Generated public URL: {public_url}")
             
             # Clean up local file if it exists
             if os.path.exists(file_path):
@@ -50,4 +65,6 @@ class SupabaseService:
             
         except Exception as e:
             print(f"Error uploading to Supabase: {str(e)}")
-            raise 
+            print("Full error trace:")
+            print(traceback.format_exc())
+            raise
