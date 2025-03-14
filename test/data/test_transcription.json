@@ -1,0 +1,1526 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "84f456ee-40b3-48f7-bb02-e8ff1861ad13",
+    "sha256": "8bb49e0c89203d7b702cf73e5fcdedfe097f2b68b47e5f43c09311b13b96877b",
+    "created": "2025-03-13T07:04:20.140Z",
+    "duration": 68.12731,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Oh, look everyone, it's the jack of all trades, master of none, Siddhartha Fullstack Upas. Let's give a warm welcome to this tech bro who went from pedaling automation systems door to door to calling himself a Fullstack developer after watching a few YouTube tutorials. With a bachelor's degree in engineering from some obscure college and a master's from IIT that he's probably still paying off, Siddhartha is the perfect example of how an expensive education doesn't guarantee common sense. I mean, who pivots from mechanical engineering to coding video games and thinks they're the next Linus Torvalds? But, hey, at least his resume is as bloated as his self importance, with a hodgepodge of skills like sales operations and short films that scream, I have no idea what I'm doing. Careful with those tailored automation solutions, Sid. The only thing you're automating is your journey to the unemployment line with that scattered career path. Still, we have to admire his moxie for slapping the full stack title on his LinkedIn like a bad hairpiece. Just wait until he realizes that full stack in the Bay Area really means being a delivery driver for all the tech companies he's not qualified to work for.",
+            "confidence": 0.9989555,
+            "words": [
+              {
+                "word": "oh",
+                "start": 0.0,
+                "end": 0.24,
+                "confidence": 0.6602208,
+                "punctuated_word": "Oh,"
+              },
+              {
+                "word": "look",
+                "start": 0.24,
+                "end": 0.39999998,
+                "confidence": 0.99304634,
+                "punctuated_word": "look"
+              },
+              {
+                "word": "everyone",
+                "start": 0.39999998,
+                "end": 0.88,
+                "confidence": 0.53727555,
+                "punctuated_word": "everyone,"
+              },
+              {
+                "word": "it's",
+                "start": 0.88,
+                "end": 1.12,
+                "confidence": 0.9861511,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "the",
+                "start": 1.12,
+                "end": 1.28,
+                "confidence": 0.99654925,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "jack",
+                "start": 1.28,
+                "end": 1.52,
+                "confidence": 0.8773998,
+                "punctuated_word": "jack"
+              },
+              {
+                "word": "of",
+                "start": 1.52,
+                "end": 1.68,
+                "confidence": 0.99924743,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "all",
+                "start": 1.68,
+                "end": 1.8399999,
+                "confidence": 0.99949765,
+                "punctuated_word": "all"
+              },
+              {
+                "word": "trades",
+                "start": 1.8399999,
+                "end": 2.34,
+                "confidence": 0.95348084,
+                "punctuated_word": "trades,"
+              },
+              {
+                "word": "master",
+                "start": 2.3999999,
+                "end": 2.72,
+                "confidence": 0.99294996,
+                "punctuated_word": "master"
+              },
+              {
+                "word": "of",
+                "start": 2.72,
+                "end": 2.8799999,
+                "confidence": 0.9993824,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "none",
+                "start": 2.8799999,
+                "end": 3.3799999,
+                "confidence": 0.90122247,
+                "punctuated_word": "none,"
+              },
+              {
+                "word": "siddhartha",
+                "start": 3.6,
+                "end": 4.1,
+                "confidence": 0.75927997,
+                "punctuated_word": "Siddhartha"
+              },
+              {
+                "word": "fullstack",
+                "start": 4.16,
+                "end": 4.66,
+                "confidence": 0.85957026,
+                "punctuated_word": "Fullstack"
+              },
+              {
+                "word": "upas",
+                "start": 4.7999997,
+                "end": 5.2999997,
+                "confidence": 0.77316684,
+                "punctuated_word": "Upas."
+              },
+              {
+                "word": "let's",
+                "start": 5.6,
+                "end": 5.8399997,
+                "confidence": 0.99904263,
+                "punctuated_word": "Let's"
+              },
+              {
+                "word": "give",
+                "start": 5.8399997,
+                "end": 6.0,
+                "confidence": 0.99947363,
+                "punctuated_word": "give"
+              },
+              {
+                "word": "a",
+                "start": 6.0,
+                "end": 6.08,
+                "confidence": 0.99843794,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "warm",
+                "start": 6.08,
+                "end": 6.3199997,
+                "confidence": 0.99970275,
+                "punctuated_word": "warm"
+              },
+              {
+                "word": "welcome",
+                "start": 6.3199997,
+                "end": 6.64,
+                "confidence": 0.9992766,
+                "punctuated_word": "welcome"
+              },
+              {
+                "word": "to",
+                "start": 6.64,
+                "end": 6.72,
+                "confidence": 0.99910396,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "this",
+                "start": 6.72,
+                "end": 6.96,
+                "confidence": 0.99861753,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "tech",
+                "start": 6.96,
+                "end": 7.2799997,
+                "confidence": 0.9964167,
+                "punctuated_word": "tech"
+              },
+              {
+                "word": "bro",
+                "start": 7.2799997,
+                "end": 7.52,
+                "confidence": 0.9983719,
+                "punctuated_word": "bro"
+              },
+              {
+                "word": "who",
+                "start": 7.52,
+                "end": 7.68,
+                "confidence": 0.9543067,
+                "punctuated_word": "who"
+              },
+              {
+                "word": "went",
+                "start": 7.68,
+                "end": 7.8399997,
+                "confidence": 0.9998196,
+                "punctuated_word": "went"
+              },
+              {
+                "word": "from",
+                "start": 7.8399997,
+                "end": 8.0,
+                "confidence": 0.9997819,
+                "punctuated_word": "from"
+              },
+              {
+                "word": "pedaling",
+                "start": 8.0,
+                "end": 8.48,
+                "confidence": 0.7591865,
+                "punctuated_word": "pedaling"
+              },
+              {
+                "word": "automation",
+                "start": 8.48,
+                "end": 8.96,
+                "confidence": 0.99847084,
+                "punctuated_word": "automation"
+              },
+              {
+                "word": "systems",
+                "start": 8.96,
+                "end": 9.36,
+                "confidence": 0.99690706,
+                "punctuated_word": "systems"
+              },
+              {
+                "word": "door",
+                "start": 9.36,
+                "end": 9.599999,
+                "confidence": 0.9959805,
+                "punctuated_word": "door"
+              },
+              {
+                "word": "to",
+                "start": 9.599999,
+                "end": 9.76,
+                "confidence": 0.99978346,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "door",
+                "start": 9.76,
+                "end": 10.0,
+                "confidence": 0.99984515,
+                "punctuated_word": "door"
+              },
+              {
+                "word": "to",
+                "start": 10.0,
+                "end": 10.08,
+                "confidence": 0.9783197,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "calling",
+                "start": 10.08,
+                "end": 10.4,
+                "confidence": 0.999326,
+                "punctuated_word": "calling"
+              },
+              {
+                "word": "himself",
+                "start": 10.4,
+                "end": 10.719999,
+                "confidence": 0.99982256,
+                "punctuated_word": "himself"
+              },
+              {
+                "word": "a",
+                "start": 10.719999,
+                "end": 10.88,
+                "confidence": 0.9989555,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "fullstack",
+                "start": 10.88,
+                "end": 11.38,
+                "confidence": 0.83974797,
+                "punctuated_word": "Fullstack"
+              },
+              {
+                "word": "developer",
+                "start": 11.44,
+                "end": 11.94,
+                "confidence": 0.94255155,
+                "punctuated_word": "developer"
+              },
+              {
+                "word": "after",
+                "start": 12.0,
+                "end": 12.24,
+                "confidence": 0.979783,
+                "punctuated_word": "after"
+              },
+              {
+                "word": "watching",
+                "start": 12.24,
+                "end": 12.559999,
+                "confidence": 0.9996692,
+                "punctuated_word": "watching"
+              },
+              {
+                "word": "a",
+                "start": 12.559999,
+                "end": 12.639999,
+                "confidence": 0.99832743,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "few",
+                "start": 12.639999,
+                "end": 12.88,
+                "confidence": 0.9998925,
+                "punctuated_word": "few"
+              },
+              {
+                "word": "youtube",
+                "start": 12.88,
+                "end": 13.28,
+                "confidence": 0.7843045,
+                "punctuated_word": "YouTube"
+              },
+              {
+                "word": "tutorials",
+                "start": 13.28,
+                "end": 13.78,
+                "confidence": 0.99783564,
+                "punctuated_word": "tutorials."
+              },
+              {
+                "word": "with",
+                "start": 14.8949995,
+                "end": 15.054999,
+                "confidence": 0.9993748,
+                "punctuated_word": "With"
+              },
+              {
+                "word": "a",
+                "start": 15.054999,
+                "end": 15.134999,
+                "confidence": 0.98711675,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "bachelor's",
+                "start": 15.134999,
+                "end": 15.615,
+                "confidence": 0.9617655,
+                "punctuated_word": "bachelor's"
+              },
+              {
+                "word": "degree",
+                "start": 15.615,
+                "end": 15.934999,
+                "confidence": 0.9987914,
+                "punctuated_word": "degree"
+              },
+              {
+                "word": "in",
+                "start": 15.934999,
+                "end": 16.095,
+                "confidence": 0.9974377,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "engineering",
+                "start": 16.095,
+                "end": 16.574999,
+                "confidence": 0.9882207,
+                "punctuated_word": "engineering"
+              },
+              {
+                "word": "from",
+                "start": 16.574999,
+                "end": 16.735,
+                "confidence": 0.99759907,
+                "punctuated_word": "from"
+              },
+              {
+                "word": "some",
+                "start": 16.735,
+                "end": 16.975,
+                "confidence": 0.99967337,
+                "punctuated_word": "some"
+              },
+              {
+                "word": "obscure",
+                "start": 16.975,
+                "end": 17.455,
+                "confidence": 0.9999293,
+                "punctuated_word": "obscure"
+              },
+              {
+                "word": "college",
+                "start": 17.455,
+                "end": 17.775,
+                "confidence": 0.98558587,
+                "punctuated_word": "college"
+              },
+              {
+                "word": "and",
+                "start": 17.775,
+                "end": 18.095,
+                "confidence": 0.97979546,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 18.095,
+                "end": 18.414999,
+                "confidence": 0.98922896,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "master's",
+                "start": 18.414999,
+                "end": 18.895,
+                "confidence": 0.93900824,
+                "punctuated_word": "master's"
+              },
+              {
+                "word": "from",
+                "start": 18.895,
+                "end": 19.135,
+                "confidence": 0.9979322,
+                "punctuated_word": "from"
+              },
+              {
+                "word": "iit",
+                "start": 19.135,
+                "end": 19.615,
+                "confidence": 0.99576485,
+                "punctuated_word": "IIT"
+              },
+              {
+                "word": "that",
+                "start": 19.615,
+                "end": 19.775,
+                "confidence": 0.99001956,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "he's",
+                "start": 19.775,
+                "end": 20.015,
+                "confidence": 0.9624305,
+                "punctuated_word": "he's"
+              },
+              {
+                "word": "probably",
+                "start": 20.015,
+                "end": 20.335,
+                "confidence": 0.9989575,
+                "punctuated_word": "probably"
+              },
+              {
+                "word": "still",
+                "start": 20.335,
+                "end": 20.575,
+                "confidence": 0.9989483,
+                "punctuated_word": "still"
+              },
+              {
+                "word": "paying",
+                "start": 20.575,
+                "end": 21.075,
+                "confidence": 0.9997975,
+                "punctuated_word": "paying"
+              },
+              {
+                "word": "off",
+                "start": 21.215,
+                "end": 21.615,
+                "confidence": 0.95373476,
+                "punctuated_word": "off,"
+              },
+              {
+                "word": "siddhartha",
+                "start": 21.615,
+                "end": 22.095,
+                "confidence": 0.92395085,
+                "punctuated_word": "Siddhartha"
+              },
+              {
+                "word": "is",
+                "start": 22.095,
+                "end": 22.255,
+                "confidence": 0.9991135,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "the",
+                "start": 22.255,
+                "end": 22.414999,
+                "confidence": 0.9963625,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "perfect",
+                "start": 22.414999,
+                "end": 22.814999,
+                "confidence": 0.9999355,
+                "punctuated_word": "perfect"
+              },
+              {
+                "word": "example",
+                "start": 22.814999,
+                "end": 23.134998,
+                "confidence": 0.99991524,
+                "punctuated_word": "example"
+              },
+              {
+                "word": "of",
+                "start": 23.134998,
+                "end": 23.215,
+                "confidence": 0.999632,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "how",
+                "start": 23.215,
+                "end": 23.375,
+                "confidence": 0.99962616,
+                "punctuated_word": "how"
+              },
+              {
+                "word": "an",
+                "start": 23.375,
+                "end": 23.615,
+                "confidence": 0.9977843,
+                "punctuated_word": "an"
+              },
+              {
+                "word": "expensive",
+                "start": 23.615,
+                "end": 24.115,
+                "confidence": 0.999453,
+                "punctuated_word": "expensive"
+              },
+              {
+                "word": "education",
+                "start": 24.175,
+                "end": 24.675,
+                "confidence": 0.99961567,
+                "punctuated_word": "education"
+              },
+              {
+                "word": "doesn't",
+                "start": 24.814999,
+                "end": 25.215,
+                "confidence": 0.9991844,
+                "punctuated_word": "doesn't"
+              },
+              {
+                "word": "guarantee",
+                "start": 25.215,
+                "end": 25.695,
+                "confidence": 0.9993327,
+                "punctuated_word": "guarantee"
+              },
+              {
+                "word": "common",
+                "start": 25.695,
+                "end": 26.015,
+                "confidence": 0.9951515,
+                "punctuated_word": "common"
+              },
+              {
+                "word": "sense",
+                "start": 26.015,
+                "end": 26.515,
+                "confidence": 0.9992285,
+                "punctuated_word": "sense."
+              },
+              {
+                "word": "i",
+                "start": 27.23,
+                "end": 27.47,
+                "confidence": 0.9999434,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "mean",
+                "start": 27.47,
+                "end": 27.87,
+                "confidence": 0.99749625,
+                "punctuated_word": "mean,"
+              },
+              {
+                "word": "who",
+                "start": 27.87,
+                "end": 28.11,
+                "confidence": 0.9996117,
+                "punctuated_word": "who"
+              },
+              {
+                "word": "pivots",
+                "start": 28.11,
+                "end": 28.51,
+                "confidence": 0.9998225,
+                "punctuated_word": "pivots"
+              },
+              {
+                "word": "from",
+                "start": 28.51,
+                "end": 28.75,
+                "confidence": 0.9997081,
+                "punctuated_word": "from"
+              },
+              {
+                "word": "mechanical",
+                "start": 28.75,
+                "end": 29.25,
+                "confidence": 0.9991966,
+                "punctuated_word": "mechanical"
+              },
+              {
+                "word": "engineering",
+                "start": 29.31,
+                "end": 29.79,
+                "confidence": 0.99991524,
+                "punctuated_word": "engineering"
+              },
+              {
+                "word": "to",
+                "start": 29.79,
+                "end": 29.95,
+                "confidence": 0.9991991,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "coding",
+                "start": 29.95,
+                "end": 30.27,
+                "confidence": 0.9976404,
+                "punctuated_word": "coding"
+              },
+              {
+                "word": "video",
+                "start": 30.27,
+                "end": 30.59,
+                "confidence": 0.9955474,
+                "punctuated_word": "video"
+              },
+              {
+                "word": "games",
+                "start": 30.59,
+                "end": 30.83,
+                "confidence": 0.9997085,
+                "punctuated_word": "games"
+              },
+              {
+                "word": "and",
+                "start": 30.83,
+                "end": 30.99,
+                "confidence": 0.98348284,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "thinks",
+                "start": 30.99,
+                "end": 31.31,
+                "confidence": 0.9975037,
+                "punctuated_word": "thinks"
+              },
+              {
+                "word": "they're",
+                "start": 31.31,
+                "end": 31.630001,
+                "confidence": 0.9941133,
+                "punctuated_word": "they're"
+              },
+              {
+                "word": "the",
+                "start": 31.630001,
+                "end": 31.71,
+                "confidence": 0.9992525,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "next",
+                "start": 31.71,
+                "end": 32.03,
+                "confidence": 0.9992003,
+                "punctuated_word": "next"
+              },
+              {
+                "word": "linus",
+                "start": 32.03,
+                "end": 32.35,
+                "confidence": 0.9989796,
+                "punctuated_word": "Linus"
+              },
+              {
+                "word": "torvalds",
+                "start": 32.35,
+                "end": 32.85,
+                "confidence": 0.97590506,
+                "punctuated_word": "Torvalds?"
+              },
+              {
+                "word": "but",
+                "start": 33.79,
+                "end": 34.11,
+                "confidence": 0.7580542,
+                "punctuated_word": "But,"
+              },
+              {
+                "word": "hey",
+                "start": 34.11,
+                "end": 34.61,
+                "confidence": 0.85317236,
+                "punctuated_word": "hey,"
+              },
+              {
+                "word": "at",
+                "start": 34.75,
+                "end": 34.91,
+                "confidence": 0.99820614,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "least",
+                "start": 34.91,
+                "end": 35.15,
+                "confidence": 0.9999527,
+                "punctuated_word": "least"
+              },
+              {
+                "word": "his",
+                "start": 35.15,
+                "end": 35.309998,
+                "confidence": 0.98503286,
+                "punctuated_word": "his"
+              },
+              {
+                "word": "resume",
+                "start": 35.309998,
+                "end": 35.71,
+                "confidence": 0.9961718,
+                "punctuated_word": "resume"
+              },
+              {
+                "word": "is",
+                "start": 35.71,
+                "end": 35.87,
+                "confidence": 0.9900304,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "as",
+                "start": 35.87,
+                "end": 35.95,
+                "confidence": 0.9979533,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "bloated",
+                "start": 35.95,
+                "end": 36.27,
+                "confidence": 0.9998634,
+                "punctuated_word": "bloated"
+              },
+              {
+                "word": "as",
+                "start": 36.27,
+                "end": 36.510002,
+                "confidence": 0.999432,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "his",
+                "start": 36.510002,
+                "end": 36.59,
+                "confidence": 0.987733,
+                "punctuated_word": "his"
+              },
+              {
+                "word": "self",
+                "start": 36.59,
+                "end": 36.83,
+                "confidence": 0.9999206,
+                "punctuated_word": "self"
+              },
+              {
+                "word": "importance",
+                "start": 36.83,
+                "end": 37.33,
+                "confidence": 0.7314194,
+                "punctuated_word": "importance,"
+              },
+              {
+                "word": "with",
+                "start": 37.55,
+                "end": 37.79,
+                "confidence": 0.9994655,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "a",
+                "start": 37.79,
+                "end": 37.95,
+                "confidence": 0.91561484,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "hodgepodge",
+                "start": 37.95,
+                "end": 38.45,
+                "confidence": 0.98976815,
+                "punctuated_word": "hodgepodge"
+              },
+              {
+                "word": "of",
+                "start": 38.510002,
+                "end": 38.67,
+                "confidence": 0.99918836,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "skills",
+                "start": 38.67,
+                "end": 38.91,
+                "confidence": 0.99972016,
+                "punctuated_word": "skills"
+              },
+              {
+                "word": "like",
+                "start": 38.91,
+                "end": 39.23,
+                "confidence": 0.87995356,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "sales",
+                "start": 39.23,
+                "end": 39.55,
+                "confidence": 0.9986047,
+                "punctuated_word": "sales"
+              },
+              {
+                "word": "operations",
+                "start": 39.55,
+                "end": 40.05,
+                "confidence": 0.9517074,
+                "punctuated_word": "operations"
+              },
+              {
+                "word": "and",
+                "start": 40.19,
+                "end": 40.59,
+                "confidence": 0.9722982,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "short",
+                "start": 40.59,
+                "end": 40.83,
+                "confidence": 0.9994424,
+                "punctuated_word": "short"
+              },
+              {
+                "word": "films",
+                "start": 40.83,
+                "end": 41.205,
+                "confidence": 0.99980587,
+                "punctuated_word": "films"
+              },
+              {
+                "word": "that",
+                "start": 41.285004,
+                "end": 41.445004,
+                "confidence": 0.9998155,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "scream",
+                "start": 41.445004,
+                "end": 41.765003,
+                "confidence": 0.7610067,
+                "punctuated_word": "scream,"
+              },
+              {
+                "word": "i",
+                "start": 41.765003,
+                "end": 42.085003,
+                "confidence": 0.9896483,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "have",
+                "start": 42.085003,
+                "end": 42.325,
+                "confidence": 0.99946207,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "no",
+                "start": 42.325,
+                "end": 42.565002,
+                "confidence": 0.99916303,
+                "punctuated_word": "no"
+              },
+              {
+                "word": "idea",
+                "start": 42.565002,
+                "end": 42.965,
+                "confidence": 0.99977297,
+                "punctuated_word": "idea"
+              },
+              {
+                "word": "what",
+                "start": 42.965,
+                "end": 43.125,
+                "confidence": 0.9992706,
+                "punctuated_word": "what"
+              },
+              {
+                "word": "i'm",
+                "start": 43.125,
+                "end": 43.365,
+                "confidence": 0.9956966,
+                "punctuated_word": "I'm"
+              },
+              {
+                "word": "doing",
+                "start": 43.365,
+                "end": 43.865,
+                "confidence": 0.99290454,
+                "punctuated_word": "doing."
+              },
+              {
+                "word": "careful",
+                "start": 45.045002,
+                "end": 45.445,
+                "confidence": 0.9984822,
+                "punctuated_word": "Careful"
+              },
+              {
+                "word": "with",
+                "start": 45.445,
+                "end": 45.605003,
+                "confidence": 0.9993205,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "those",
+                "start": 45.605003,
+                "end": 45.925003,
+                "confidence": 0.9976375,
+                "punctuated_word": "those"
+              },
+              {
+                "word": "tailored",
+                "start": 45.925003,
+                "end": 46.325,
+                "confidence": 0.9960544,
+                "punctuated_word": "tailored"
+              },
+              {
+                "word": "automation",
+                "start": 46.325,
+                "end": 46.825,
+                "confidence": 0.998475,
+                "punctuated_word": "automation"
+              },
+              {
+                "word": "solutions",
+                "start": 46.965,
+                "end": 47.465,
+                "confidence": 0.974995,
+                "punctuated_word": "solutions,"
+              },
+              {
+                "word": "sid",
+                "start": 47.605003,
+                "end": 48.105003,
+                "confidence": 0.92278373,
+                "punctuated_word": "Sid."
+              },
+              {
+                "word": "the",
+                "start": 48.325,
+                "end": 48.565002,
+                "confidence": 0.9992506,
+                "punctuated_word": "The"
+              },
+              {
+                "word": "only",
+                "start": 48.565002,
+                "end": 48.805,
+                "confidence": 0.99993026,
+                "punctuated_word": "only"
+              },
+              {
+                "word": "thing",
+                "start": 48.805,
+                "end": 48.965,
+                "confidence": 0.9995061,
+                "punctuated_word": "thing"
+              },
+              {
+                "word": "you're",
+                "start": 48.965,
+                "end": 49.205,
+                "confidence": 0.9938965,
+                "punctuated_word": "you're"
+              },
+              {
+                "word": "automating",
+                "start": 49.205,
+                "end": 49.685,
+                "confidence": 0.9999638,
+                "punctuated_word": "automating"
+              },
+              {
+                "word": "is",
+                "start": 49.685,
+                "end": 49.925003,
+                "confidence": 0.9994892,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "your",
+                "start": 49.925003,
+                "end": 50.085003,
+                "confidence": 0.9994708,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "journey",
+                "start": 50.085003,
+                "end": 50.405003,
+                "confidence": 0.99984,
+                "punctuated_word": "journey"
+              },
+              {
+                "word": "to",
+                "start": 50.405003,
+                "end": 50.565002,
+                "confidence": 0.9995629,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "the",
+                "start": 50.565002,
+                "end": 50.725002,
+                "confidence": 0.9989299,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "unemployment",
+                "start": 50.725002,
+                "end": 51.225002,
+                "confidence": 0.9997793,
+                "punctuated_word": "unemployment"
+              },
+              {
+                "word": "line",
+                "start": 51.365,
+                "end": 51.525,
+                "confidence": 0.999663,
+                "punctuated_word": "line"
+              },
+              {
+                "word": "with",
+                "start": 51.525,
+                "end": 51.765,
+                "confidence": 0.9982973,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "that",
+                "start": 51.765,
+                "end": 52.005,
+                "confidence": 0.99920064,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "scattered",
+                "start": 52.005,
+                "end": 52.405003,
+                "confidence": 0.9993988,
+                "punctuated_word": "scattered"
+              },
+              {
+                "word": "career",
+                "start": 52.405003,
+                "end": 52.725002,
+                "confidence": 0.99975544,
+                "punctuated_word": "career"
+              },
+              {
+                "word": "path",
+                "start": 52.725002,
+                "end": 53.225002,
+                "confidence": 0.9995183,
+                "punctuated_word": "path."
+              },
+              {
+                "word": "still",
+                "start": 54.43,
+                "end": 54.75,
+                "confidence": 0.98024493,
+                "punctuated_word": "Still,"
+              },
+              {
+                "word": "we",
+                "start": 54.75,
+                "end": 54.91,
+                "confidence": 0.99972194,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "have",
+                "start": 54.91,
+                "end": 55.07,
+                "confidence": 0.9998361,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "to",
+                "start": 55.07,
+                "end": 55.23,
+                "confidence": 0.99841464,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "admire",
+                "start": 55.23,
+                "end": 55.550003,
+                "confidence": 0.99996567,
+                "punctuated_word": "admire"
+              },
+              {
+                "word": "his",
+                "start": 55.550003,
+                "end": 55.79,
+                "confidence": 0.9996251,
+                "punctuated_word": "his"
+              },
+              {
+                "word": "moxie",
+                "start": 55.79,
+                "end": 56.11,
+                "confidence": 0.98668605,
+                "punctuated_word": "moxie"
+              },
+              {
+                "word": "for",
+                "start": 56.11,
+                "end": 56.43,
+                "confidence": 0.9997583,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "slapping",
+                "start": 56.43,
+                "end": 56.75,
+                "confidence": 0.9998086,
+                "punctuated_word": "slapping"
+              },
+              {
+                "word": "the",
+                "start": 56.75,
+                "end": 56.99,
+                "confidence": 0.9997253,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "full",
+                "start": 56.99,
+                "end": 57.31,
+                "confidence": 0.9833829,
+                "punctuated_word": "full"
+              },
+              {
+                "word": "stack",
+                "start": 57.31,
+                "end": 57.63,
+                "confidence": 0.9981851,
+                "punctuated_word": "stack"
+              },
+              {
+                "word": "title",
+                "start": 57.63,
+                "end": 57.870003,
+                "confidence": 0.9993598,
+                "punctuated_word": "title"
+              },
+              {
+                "word": "on",
+                "start": 57.870003,
+                "end": 58.030003,
+                "confidence": 0.9995827,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "his",
+                "start": 58.030003,
+                "end": 58.190002,
+                "confidence": 0.99886835,
+                "punctuated_word": "his"
+              },
+              {
+                "word": "linkedin",
+                "start": 58.190002,
+                "end": 58.59,
+                "confidence": 0.99390477,
+                "punctuated_word": "LinkedIn"
+              },
+              {
+                "word": "like",
+                "start": 58.59,
+                "end": 58.75,
+                "confidence": 0.9878421,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "a",
+                "start": 58.75,
+                "end": 58.91,
+                "confidence": 0.99875546,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "bad",
+                "start": 58.91,
+                "end": 59.15,
+                "confidence": 0.9999639,
+                "punctuated_word": "bad"
+              },
+              {
+                "word": "hairpiece",
+                "start": 59.15,
+                "end": 59.65,
+                "confidence": 0.8661415,
+                "punctuated_word": "hairpiece."
+              },
+              {
+                "word": "just",
+                "start": 60.510002,
+                "end": 60.75,
+                "confidence": 0.9994486,
+                "punctuated_word": "Just"
+              },
+              {
+                "word": "wait",
+                "start": 60.75,
+                "end": 60.99,
+                "confidence": 0.99993575,
+                "punctuated_word": "wait"
+              },
+              {
+                "word": "until",
+                "start": 60.99,
+                "end": 61.23,
+                "confidence": 0.9998055,
+                "punctuated_word": "until"
+              },
+              {
+                "word": "he",
+                "start": 61.23,
+                "end": 61.39,
+                "confidence": 0.99851674,
+                "punctuated_word": "he"
+              },
+              {
+                "word": "realizes",
+                "start": 61.39,
+                "end": 61.870003,
+                "confidence": 0.9983315,
+                "punctuated_word": "realizes"
+              },
+              {
+                "word": "that",
+                "start": 61.870003,
+                "end": 62.11,
+                "confidence": 0.99976474,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "full",
+                "start": 62.11,
+                "end": 62.350002,
+                "confidence": 0.9978313,
+                "punctuated_word": "full"
+              },
+              {
+                "word": "stack",
+                "start": 62.350002,
+                "end": 62.670002,
+                "confidence": 0.999329,
+                "punctuated_word": "stack"
+              },
+              {
+                "word": "in",
+                "start": 62.670002,
+                "end": 62.75,
+                "confidence": 0.999602,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "the",
+                "start": 62.75,
+                "end": 62.91,
+                "confidence": 0.9970517,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "bay",
+                "start": 62.91,
+                "end": 63.15,
+                "confidence": 0.95069104,
+                "punctuated_word": "Bay"
+              },
+              {
+                "word": "area",
+                "start": 63.15,
+                "end": 63.550003,
+                "confidence": 0.95244014,
+                "punctuated_word": "Area"
+              },
+              {
+                "word": "really",
+                "start": 63.550003,
+                "end": 63.79,
+                "confidence": 0.9969049,
+                "punctuated_word": "really"
+              },
+              {
+                "word": "means",
+                "start": 63.79,
+                "end": 64.03,
+                "confidence": 0.99988866,
+                "punctuated_word": "means"
+              },
+              {
+                "word": "being",
+                "start": 64.03,
+                "end": 64.270004,
+                "confidence": 0.9998142,
+                "punctuated_word": "being"
+              },
+              {
+                "word": "a",
+                "start": 64.270004,
+                "end": 64.43,
+                "confidence": 0.9994904,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "delivery",
+                "start": 64.43,
+                "end": 64.83,
+                "confidence": 0.9998746,
+                "punctuated_word": "delivery"
+              },
+              {
+                "word": "driver",
+                "start": 64.83,
+                "end": 65.15,
+                "confidence": 0.9999734,
+                "punctuated_word": "driver"
+              },
+              {
+                "word": "for",
+                "start": 65.15,
+                "end": 65.39,
+                "confidence": 0.9997925,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "all",
+                "start": 65.39,
+                "end": 65.55,
+                "confidence": 0.9998275,
+                "punctuated_word": "all"
+              },
+              {
+                "word": "the",
+                "start": 65.55,
+                "end": 65.630005,
+                "confidence": 0.9979818,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "tech",
+                "start": 65.630005,
+                "end": 65.87,
+                "confidence": 0.9997557,
+                "punctuated_word": "tech"
+              },
+              {
+                "word": "companies",
+                "start": 65.87,
+                "end": 66.270004,
+                "confidence": 0.9998857,
+                "punctuated_word": "companies"
+              },
+              {
+                "word": "he's",
+                "start": 66.270004,
+                "end": 66.51,
+                "confidence": 0.9964415,
+                "punctuated_word": "he's"
+              },
+              {
+                "word": "not",
+                "start": 66.51,
+                "end": 66.67,
+                "confidence": 0.9999379,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "qualified",
+                "start": 66.67,
+                "end": 67.15,
+                "confidence": 0.9999273,
+                "punctuated_word": "qualified"
+              },
+              {
+                "word": "to",
+                "start": 67.15,
+                "end": 67.31,
+                "confidence": 0.99980754,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "work",
+                "start": 67.31,
+                "end": 67.55,
+                "confidence": 0.9999814,
+                "punctuated_word": "work"
+              },
+              {
+                "word": "for",
+                "start": 67.55,
+                "end": 68.05,
+                "confidence": 0.99952537,
+                "punctuated_word": "for."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nOh, look everyone, it's the jack of all trades, master of none, Siddhartha Fullstack Upas. Let's give a warm welcome to this tech bro who went from pedaling automation systems door to door to calling himself a Fullstack developer after watching a few YouTube tutorials. With a bachelor's degree in engineering from some obscure college and a master's from IIT that he's probably still paying off, Siddhartha is the perfect example of how an expensive education doesn't guarantee common sense. I mean, who pivots from mechanical engineering to coding video games and thinks they're the next Linus Torvalds? But, hey, at least his resume is as bloated as his self importance, with a hodgepodge of skills like sales operations and short films that scream, I have no idea what I'm doing.\n\nCareful with those tailored automation solutions, Sid. The only thing you're automating is your journey to the unemployment line with that scattered career path. Still, we have to admire his moxie for slapping the full stack title on his LinkedIn like a bad hairpiece. Just wait until he realizes that full stack in the Bay Area really means being a delivery driver for all the tech companies he's not qualified to work for.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Oh, look everyone, it's the jack of all trades, master of none, Siddhartha Fullstack Upas.",
+                      "start": 0.0,
+                      "end": 5.2999997
+                    },
+                    {
+                      "text": "Let's give a warm welcome to this tech bro who went from pedaling automation systems door to door to calling himself a Fullstack developer after watching a few YouTube tutorials.",
+                      "start": 5.6,
+                      "end": 13.78
+                    },
+                    {
+                      "text": "With a bachelor's degree in engineering from some obscure college and a master's from IIT that he's probably still paying off, Siddhartha is the perfect example of how an expensive education doesn't guarantee common sense.",
+                      "start": 14.8949995,
+                      "end": 26.515
+                    },
+                    {
+                      "text": "I mean, who pivots from mechanical engineering to coding video games and thinks they're the next Linus Torvalds?",
+                      "start": 27.23,
+                      "end": 32.85
+                    },
+                    {
+                      "text": "But, hey, at least his resume is as bloated as his self importance, with a hodgepodge of skills like sales operations and short films that scream, I have no idea what I'm doing.",
+                      "start": 33.79,
+                      "end": 43.865
+                    }
+                  ],
+                  "start": 0.0,
+                  "end": 43.865,
+                  "num_words": 131
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Careful with those tailored automation solutions, Sid.",
+                      "start": 45.045002,
+                      "end": 48.105003
+                    },
+                    {
+                      "text": "The only thing you're automating is your journey to the unemployment line with that scattered career path.",
+                      "start": 48.325,
+                      "end": 53.225002
+                    },
+                    {
+                      "text": "Still, we have to admire his moxie for slapping the full stack title on his LinkedIn like a bad hairpiece.",
+                      "start": 54.43,
+                      "end": 59.65
+                    },
+                    {
+                      "text": "Just wait until he realizes that full stack in the Bay Area really means being a delivery driver for all the tech companies he's not qualified to work for.",
+                      "start": 60.510002,
+                      "end": 68.05
+                    }
+                  ],
+                  "start": 45.045002,
+                  "end": 68.05,
+                  "num_words": 73
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

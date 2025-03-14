@@ -1,0 +1,692 @@
+{
+  "id": 850673186,
+  "urn": "ACoAADK0PiIBVYC5e-mZHER7rES7myvSHz0XG9Q",
+  "username": "syedhussain10",
+  "firstName": "Syed Mujtaba",
+  "lastName": "Hussain",
+  "isPremium": false,
+  "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQFHBpqrd43v4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722575268400?e=1747267200&v=beta&t=q1XlR2ktkgkoTMxhg3DUaHGlkdkYqz78C6mAdQ9F0tQ",
+  "profilePictures": [
+    {
+      "url": "https://media.licdn.com/dms/image/v2/D5603AQFHBpqrd43v4g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1722575268387?e=1747267200&v=beta&t=cRAdlQdhHkFaHIRra7lvehlk-nOBHvD854yfvqlU_60",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "url": "https://media.licdn.com/dms/image/v2/D5603AQFHBpqrd43v4g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722575268387?e=1747267200&v=beta&t=lqArAMea5BCxIeK703KhcvMyeFGORmGIlighWJLeXbo",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "url": "https://media.licdn.com/dms/image/v2/D5603AQFHBpqrd43v4g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722575268387?e=1747267200&v=beta&t=AWovvcYtFJobQdV63y5-N7cLDLK4TVsl3pdUKKlCYJw",
+      "width": 400,
+      "height": 400
+    },
+    {
+      "url": "https://media.licdn.com/dms/image/v2/D5603AQFHBpqrd43v4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722575268400?e=1747267200&v=beta&t=q1XlR2ktkgkoTMxhg3DUaHGlkdkYqz78C6mAdQ9F0tQ",
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "headline": "Full-Stack Developer | Proficient in React, JavaScript, Redux, and Node.js | Research Assistant at Illinois Tech",
+  "geo": {
+    "country": "United States",
+    "city": "Chicago, Illinois",
+    "full": "Chicago, Illinois, United States",
+    "countryCode": "us"
+  },
+  "educations": [
+    {
+      "start": {
+        "year": 2023,
+        "month": 8,
+        "day": 0
+      },
+      "end": {
+        "year": 2025,
+        "month": 5,
+        "day": 0
+      },
+      "fieldOfStudy": "Computer Science",
+      "degree": "Master of Science - MS",
+      "grade": "",
+      "schoolName": "Illinois Institute of Technology",
+      "description": "",
+      "activities": "",
+      "url": "https://www.linkedin.com/school/illinois-tech/",
+      "schoolId": "6328",
+      "logo": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_200_200/company-logo_200_200/0/1630559679535/illinois_institute_of_technology_logo?e=1750291200&v=beta&t=vzTXYrpGKX5-fqqWoul7OdNhQ9lkDIk7tHepMpP-MsI",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_100_100/company-logo_100_100/0/1630559679535/illinois_institute_of_technology_logo?e=1750291200&v=beta&t=tV2fENUxPll_fWLppHylkQVCHTeYKDiXd7THwWf7Lf0",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_400_400/company-logo_400_400/0/1630559679535/illinois_institute_of_technology_logo?e=1750291200&v=beta&t=pPr0EHxf0OD_-mxLgKM-JUVek9MfXpzR7rRJwxrcv-M",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "start": {
+        "year": 2019,
+        "month": 0,
+        "day": 0
+      },
+      "end": {
+        "year": 2023,
+        "month": 0,
+        "day": 0
+      },
+      "fieldOfStudy": "Information Technology",
+      "degree": "Bachelor of Engineering - BE",
+      "grade": "",
+      "schoolName": "Muffakham Jah College of Engineering & Technology",
+      "description": "",
+      "activities": "",
+      "url": "https://www.linkedin.com/school/muffakham-jah-college-of-engineering-&-technology/",
+      "schoolId": "1178828",
+      "logo": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGiXXF0JnyePA/company-logo_200_200/company-logo_200_200/0/1631348652978?e=1750291200&v=beta&t=ucp_rJPO3vObCZJZmGFec0DvkmW5Tcc4KiSA9gJipjU",
+          "width": 200,
+          "height": 200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGiXXF0JnyePA/company-logo_100_100/company-logo_100_100/0/1631348652978?e=1750291200&v=beta&t=offPuydLRnK8TVpBpuvrdzS3pvSubvxgNuAqGq5jwaA",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGiXXF0JnyePA/company-logo_400_400/company-logo_400_400/0/1631348652978?e=1750291200&v=beta&t=vKUohJZh6EDO_r6Wt-ZzR8V71KX869bpl4f2NEMlJdk",
+          "width": 400,
+          "height": 400
+        }
+      ]
+    }
+  ],
+  "position": [
+    {
+      "companyId": 6328,
+      "companyName": "Illinois Institute of Technology",
+      "companyUsername": "illinois-tech",
+      "companyURL": "https://www.linkedin.com/school/illinois-tech/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_400_400/company-logo_400_400/0/1630559679535/illinois_institute_of_technology_logo?e=1750291200&v=beta&t=pPr0EHxf0OD_-mxLgKM-JUVek9MfXpzR7rRJwxrcv-M",
+      "companyIndustry": "Higher Education",
+      "companyStaffCountRange": "1001 - 5000",
+      "title": "Research Assistant - Mixed Reality (Trimble Lab)",
+      "multiLocaleTitle": {
+        "en_US": "Research Assistant - Mixed Reality (Trimble Lab)"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Illinois Institute of Technology"
+      },
+      "location": "United States",
+      "description": "",
+      "employmentType": "Part-time",
+      "start": {
+        "year": 2023,
+        "month": 8,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 74347375,
+      "companyName": "IEEE CIS MJCET",
+      "companyUsername": "ieee-cis-mjcet",
+      "companyURL": "https://www.linkedin.com/company/ieee-cis-mjcet/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQGSRK0gjVP-wQ/company-logo_400_400/company-logo_400_400/0/1630523063546/ieee_cis_mjcet_logo?e=1750291200&v=beta&t=SlkBUUJZKfwYZ9hRV8SAZq3XZQSqbHf_P_zoyL09Dsk",
+      "companyIndustry": "Research",
+      "companyStaffCountRange": "11 - 50",
+      "title": "Development Chair",
+      "multiLocaleTitle": {
+        "en_US": "Development Chair"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "IEEE CIS MJCET"
+      },
+      "location": "",
+      "description": "",
+      "employmentType": "Part-time",
+      "start": {
+        "year": 2022,
+        "month": 6,
+        "day": 0
+      },
+      "end": {
+        "year": 2023,
+        "month": 12,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 74347375,
+      "companyName": "IEEE CIS MJCET",
+      "companyUsername": "ieee-cis-mjcet",
+      "companyURL": "https://www.linkedin.com/company/ieee-cis-mjcet/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQGSRK0gjVP-wQ/company-logo_400_400/company-logo_400_400/0/1630523063546/ieee_cis_mjcet_logo?e=1750291200&v=beta&t=SlkBUUJZKfwYZ9hRV8SAZq3XZQSqbHf_P_zoyL09Dsk",
+      "companyIndustry": "Research",
+      "companyStaffCountRange": "11 - 50",
+      "title": "Core Team Member",
+      "multiLocaleTitle": {
+        "en_US": "Core Team Member"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "IEEE CIS MJCET"
+      },
+      "location": "Hyderabad, Telangana, India",
+      "description": "",
+      "employmentType": "Full-time",
+      "start": {
+        "year": 2021,
+        "month": 6,
+        "day": 0
+      },
+      "end": {
+        "year": 2023,
+        "month": 3,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 89572999,
+      "companyName": "Horizon",
+      "companyUsername": "horizon-mjcet",
+      "companyURL": "https://www.linkedin.com/company/horizon-mjcet/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQEEnvyakL5zPQ/company-logo_400_400/company-logo_400_400/0/1719257425484/horizon_mjcet_logo?e=1750291200&v=beta&t=1lmQeVszIVuZcbO_jGoZE-uM3UQjvfFSWxmDQV7QCXA",
+      "companyIndustry": "Computer Software",
+      "companyStaffCountRange": "11 - 50",
+      "title": "Vice Captain ",
+      "multiLocaleTitle": {
+        "en_US": "Vice Captain "
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Horizon"
+      },
+      "location": "",
+      "description": "",
+      "employmentType": "Part-time",
+      "start": {
+        "year": 2022,
+        "month": 6,
+        "day": 0
+      },
+      "end": {
+        "year": 2023,
+        "month": 12,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 95063419,
+      "companyName": "Delta Sigma Technologies",
+      "companyUsername": "deltasigmatechnologies",
+      "companyURL": "https://www.linkedin.com/company/deltasigmatechnologies/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQETMyO9_hGYBg/company-logo_400_400/company-logo_400_400/0/1686591952225?e=1750291200&v=beta&t=_pe7vRtNJUB_MHfL3Mvn2tyQlINvKPBumf7Pxi7xqhM",
+      "companyIndustry": "Computer Software",
+      "companyStaffCountRange": "2 - 10",
+      "title": "Software Engineer",
+      "multiLocaleTitle": {
+        "en_US": "Software Engineer"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Delta Sigma Technologies"
+      },
+      "location": "Hyderabad",
+      "description": "",
+      "employmentType": "Part-time",
+      "start": {
+        "year": 2022,
+        "month": 5,
+        "day": 0
+      },
+      "end": {
+        "year": 2022,
+        "month": 10,
+        "day": 0
+      }
+    }
+  ],
+  "fullPositions": [
+    {
+      "companyId": 6328,
+      "companyName": "Illinois Institute of Technology",
+      "companyUsername": "illinois-tech",
+      "companyURL": "https://www.linkedin.com/school/illinois-tech/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQEd6wnmQCCIHw/company-logo_400_400/company-logo_400_400/0/1630559679535/illinois_institute_of_technology_logo?e=1750291200&v=beta&t=pPr0EHxf0OD_-mxLgKM-JUVek9MfXpzR7rRJwxrcv-M",
+      "companyIndustry": "Higher Education",
+      "companyStaffCountRange": "1001 - 5000",
+      "title": "Research Assistant - Mixed Reality (Trimble Lab)",
+      "multiLocaleTitle": {
+        "en_US": "Research Assistant - Mixed Reality (Trimble Lab)"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Illinois Institute of Technology"
+      },
+      "location": "United States",
+      "description": "",
+      "employmentType": "Part-time",
+      "start": {
+        "year": 2023,
+        "month": 8,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 74347375,
+      "companyName": "IEEE CIS MJCET",
+      "companyUsername": "ieee-cis-mjcet",
+      "companyURL": "https://www.linkedin.com/company/ieee-cis-mjcet/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQGSRK0gjVP-wQ/company-logo_400_400/company-logo_400_400/0/1630523063546/ieee_cis_mjcet_logo?e=1750291200&v=beta&t=SlkBUUJZKfwYZ9hRV8SAZq3XZQSqbHf_P_zoyL09Dsk",
+      "companyIndustry": "Research",
+      "companyStaffCountRange": "11 - 50",
+      "title": "Development Chair",
+      "multiLocaleTitle": {
+        "en_US": "Development Chair"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "IEEE CIS MJCET"
+      },
+      "location": "",
+      "description": "",
+      "employmentType": "Part-time",
+      "start": {
+        "year": 2022,
+        "month": 6,
+        "day": 0
+      },
+      "end": {
+        "year": 2023,
+        "month": 12,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 74347375,
+      "companyName": "IEEE CIS MJCET",
+      "companyUsername": "ieee-cis-mjcet",
+      "companyURL": "https://www.linkedin.com/company/ieee-cis-mjcet/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQGSRK0gjVP-wQ/company-logo_400_400/company-logo_400_400/0/1630523063546/ieee_cis_mjcet_logo?e=1750291200&v=beta&t=SlkBUUJZKfwYZ9hRV8SAZq3XZQSqbHf_P_zoyL09Dsk",
+      "companyIndustry": "Research",
+      "companyStaffCountRange": "11 - 50",
+      "title": "Core Team Member",
+      "multiLocaleTitle": {
+        "en_US": "Core Team Member"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "IEEE CIS MJCET"
+      },
+      "location": "Hyderabad, Telangana, India",
+      "description": "",
+      "employmentType": "Full-time",
+      "start": {
+        "year": 2021,
+        "month": 6,
+        "day": 0
+      },
+      "end": {
+        "year": 2023,
+        "month": 3,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 89572999,
+      "companyName": "Horizon",
+      "companyUsername": "horizon-mjcet",
+      "companyURL": "https://www.linkedin.com/company/horizon-mjcet/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQEEnvyakL5zPQ/company-logo_400_400/company-logo_400_400/0/1719257425484/horizon_mjcet_logo?e=1750291200&v=beta&t=1lmQeVszIVuZcbO_jGoZE-uM3UQjvfFSWxmDQV7QCXA",
+      "companyIndustry": "Computer Software",
+      "companyStaffCountRange": "11 - 50",
+      "title": "Vice Captain ",
+      "multiLocaleTitle": {
+        "en_US": "Vice Captain "
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Horizon"
+      },
+      "location": "",
+      "description": "",
+      "employmentType": "Part-time",
+      "start": {
+        "year": 2022,
+        "month": 6,
+        "day": 0
+      },
+      "end": {
+        "year": 2023,
+        "month": 12,
+        "day": 0
+      }
+    },
+    {
+      "companyId": 95063419,
+      "companyName": "Delta Sigma Technologies",
+      "companyUsername": "deltasigmatechnologies",
+      "companyURL": "https://www.linkedin.com/company/deltasigmatechnologies/",
+      "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQETMyO9_hGYBg/company-logo_400_400/company-logo_400_400/0/1686591952225?e=1750291200&v=beta&t=_pe7vRtNJUB_MHfL3Mvn2tyQlINvKPBumf7Pxi7xqhM",
+      "companyIndustry": "Computer Software",
+      "companyStaffCountRange": "2 - 10",
+      "title": "Software Engineer",
+      "multiLocaleTitle": {
+        "en_US": "Software Engineer"
+      },
+      "multiLocaleCompanyName": {
+        "en_US": "Delta Sigma Technologies"
+      },
+      "location": "Hyderabad",
+      "description": "",
+      "employmentType": "Part-time",
+      "start": {
+        "year": 2022,
+        "month": 5,
+        "day": 0
+      },
+      "end": {
+        "year": 2022,
+        "month": 10,
+        "day": 0
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "JavaScript",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "MongoDB",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "DevOps",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Next.js",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "React.js",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "User Interface Design",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Technical Requirements",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Design Specifications",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Oculus",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Computer-Aided Design (CAD)",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "3D Math",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Problem Solving",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Communication",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "C (Programming Language)",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Software Development",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Programming",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Modeling and Simulation",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Design Patterns",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Natural Language Processing (NLP)",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Data Visualization",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "C#",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Python (Programming Language)",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Jupyter",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Matplotlib",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "TensorFlow",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Scikit-Learn",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Unity",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Virtual Reality (VR)",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Automation",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Blender",
+      "passedSkillAssessment": false
+    },
+    {
+      "name": "Machine Learning",
+      "passedSkillAssessment": false
+    }
+  ],
+  "certifications": [
+    {
+      "name": "HTML, CSS, and JavaScript for Web Developers",
+      "start": {
+        "year": 2021,
+        "month": 6,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "Coursera",
+      "company": {
+        "name": "Coursera",
+        "universalName": "coursera",
+        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1750291200&v=beta&t=nmqEkMwUPTeNQpg8EUWgJuRHEa9lgGE6e2EY17FjsWk",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": "Problem solving through programming in C",
+      "start": {
+        "year": 2020,
+        "month": 12,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "NPTEL",
+      "company": {
+        "name": "NPTEL",
+        "universalName": "nptel",
+        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQHJZGa_G2gwUg/company-logo_200_200/company-logo_200_200/0/1631333024279?e=1750291200&v=beta&t=Vmbfiia5mA6mJaeq8xIRICby_w3u4G99feBGVU6Fr30",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": " Python Data Structures",
+      "start": {
+        "year": 2020,
+        "month": 8,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "Coursera",
+      "company": {
+        "name": "Coursera",
+        "universalName": "coursera",
+        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_200_200/company-logo_200_200/0/1630530042036/coursera_logo?e=1750291200&v=beta&t=nmqEkMwUPTeNQpg8EUWgJuRHEa9lgGE6e2EY17FjsWk",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    },
+    {
+      "name": "Programming for Everybody (Getting Started with  Python)",
+      "start": {
+        "year": 2020,
+        "month": 7,
+        "day": 0
+      },
+      "end": {
+        "year": 0,
+        "month": 0,
+        "day": 0
+      },
+      "authority": "Coursera",
+      "company": {
+        "name": "Coursera",
+        "universalName": "courseralearning",
+        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQElUhj0AoCXPw/company-logo_200_200/company-logo_200_200/0/1640987068231/courseralearning_logo?e=1750291200&v=beta&t=Lrtc68Jaf4JED1OcfAXNTjNE3Dd1XqjQkVl4CHTQKIE",
+        "staffCountRange": {},
+        "headquarter": {}
+      },
+      "timePeriod": {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      }
+    }
+  ],
+  "projects": {},
+  "supportedLocales": [
+    {
+      "country": "US",
+      "language": "en"
+    }
+  ],
+  "multiLocaleFirstName": {
+    "en": "Syed Mujtaba"
+  },
+  "multiLocaleLastName": {
+    "en": "Hussain"
+  },
+  "multiLocaleHeadline": {
+    "en": "Full-Stack Developer | Proficient in React, JavaScript, Redux, and Node.js | Research Assistant at Illinois Tech"
+  }
+}
