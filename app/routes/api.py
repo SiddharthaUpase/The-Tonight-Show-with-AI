@@ -27,13 +27,32 @@ def handle_options(path):
 
 @api_bp.route('/generate-roast', methods=['POST'])
 def generate_roast_video():
+    """Generate a roast video from a LinkedIn profile URL."""
+    print("\n===== STARTING GENERATE ROAST =====")
+    print(f"Request method: {request.method}")
+    print(f"Request headers: {dict(request.headers)}")
+    
+    # Log all environment variables without values
+    print("Environment variables present (keys only):")
+    for key in os.environ:
+        print(f"  - {key}")
+    
     try:
-        data = request.get_json()
+        print("Attempting to parse request JSON...")
+        try:
+            data = request.get_json()
+            print(f"Request data: {data}")
+        except Exception as json_err:
+            print(f"ERROR parsing JSON: {str(json_err)}")
+            response = jsonify({'error': f'Failed to parse request JSON: {str(json_err)}'})
+            response.headers.add('Access-Control-Allow-Origin', '*')
+            return response, 400
+            
         linkedin_url = data.get('linkedin_url')
-        
-        print(f"Starting generate-roast with LinkedIn URL: {linkedin_url}")
+        print(f"LinkedIn URL: {linkedin_url}")
         
         if not linkedin_url:
+            print("ERROR: LinkedIn URL is required but was not provided")
             response = jsonify({'error': 'LinkedIn URL is required'})
             response.headers.add('Access-Control-Allow-Origin', '*')
             return response, 400
@@ -59,6 +78,7 @@ def generate_roast_video():
             print('LinkedIn data retrieved successfully')
         except Exception as e:
             print(f"ERROR in get_linkedin_data: {str(e)}")
+            traceback.print_exc()
             response = jsonify({'error': f'LinkedIn data extraction failed: {str(e)}'})
             response.headers.add('Access-Control-Allow-Origin', '*')
             return response, 500
@@ -70,6 +90,7 @@ def generate_roast_video():
             print('Roast content generated successfully')
         except Exception as e:
             print(f"ERROR in generate_roast: {str(e)}")
+            traceback.print_exc()
             response = jsonify({'error': f'Roast generation failed: {str(e)}'})
             response.headers.add('Access-Control-Allow-Origin', '*')
             return response, 500
@@ -90,6 +111,7 @@ def generate_roast_video():
             cost_info['elevenlabs'] = elevenlabs_cost_info
         except Exception as e:
             print(f"ERROR in generate_speech: {str(e)}")
+            traceback.print_exc()
             response = jsonify({'error': f'Speech generation failed: {str(e)}'})
             response.headers.add('Access-Control-Allow-Origin', '*')
             return response, 500
@@ -111,10 +133,12 @@ def generate_roast_video():
             print(f'Video generated and uploaded successfully, URL: {video_url}')
         except Exception as e:
             print(f"ERROR in generate_video: {str(e)}")
+            traceback.print_exc()
             response = jsonify({'error': f'Video generation or upload failed: {str(e)}'})
             response.headers.add('Access-Control-Allow-Origin', '*')
             return response, 500
         
+        print("Success! Returning successful response.")
         response = jsonify({
             'status': 'success',
             'message': 'Video generated and uploaded successfully',
@@ -126,22 +150,36 @@ def generate_roast_video():
         
     except Exception as e:
         error_msg = f"Error in generate_roast_video: {str(e)}"
-        print(error_msg)
+        print(f"UNHANDLED ERROR: {error_msg}")
         traceback.print_exc()
         response = jsonify({'error': error_msg})
         response.headers.add('Access-Control-Allow-Origin', '*')
         return response, 500
 
-@api_bp.route('/test-roast', methods=['POST'])
+@api_bp.route('/test-roast', methods=['POST', 'OPTIONS'])
 def test_roast_generation():
     """Test endpoint that uses cached data when available."""
+    # Handle OPTIONS for CORS preflight requests
+    if request.method == 'OPTIONS':
+        response = make_response()
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+        response.headers.add('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        return response
+        
     try:
+        print("\n===== STARTING TEST ROAST =====")
         data = request.get_json()
         linkedin_url = data.get('linkedin_url')
         use_cached_roast = data.get('use_cached_roast', True)  # New parameter to control using cached roast
         
+        print(f"LinkedIn URL: {linkedin_url}")
+        print(f"Use cached roast: {use_cached_roast}")
+        
         if not linkedin_url:
-            return jsonify({'error': 'LinkedIn URL is required'}), 400
+            response = jsonify({'error': 'LinkedIn URL is required'})
+            response.headers.add('Access-Control-Allow-Origin', '*')
+            return response, 400
             
         # First run: Get LinkedIn data and cache it
         test_data_dir = "test/data"
@@ -173,9 +211,16 @@ def test_roast_generation():
         # If we don't have cached LinkedIn data, get it and cache it
         if not os.path.exists(cached_linkedin_file):
             print('Fetching and caching LinkedIn data...')
-            linkedin_data = get_linkedin_data(linkedin_url)
-            with open(cached_linkedin_file, 'w') as f:
-                json.dump(linkedin_data, f)
+            try:
+                linkedin_data = get_linkedin_data(linkedin_url)
+                with open(cached_linkedin_file, 'w') as f:
+                    json.dump(linkedin_data, f)
+            except Exception as e:
+                print(f"ERROR in get_linkedin_data: {str(e)}")
+                traceback.print_exc()
+                response = jsonify({'error': f'LinkedIn data extraction failed: {str(e)}'})
+                response.headers.add('Access-Control-Allow-Origin', '*')
+                return response, 500
         else:
             print('Using cached LinkedIn data')
             with open(cached_linkedin_file, 'r') as f:
@@ -255,19 +300,34 @@ def test_roast_generation():
         print(f"=======================\n")
             
         print('Generating and uploading final video')
-        video_url = generate_video(linkedin_data, audio_path, roast_content)
+        try:
+            video_url = generate_video(linkedin_data, audio_path, roast_content)
+            print(f'Video generated and uploaded successfully, URL: {video_url}')
+        except Exception as e:
+            print(f"ERROR in generate_video: {str(e)}")
+            traceback.print_exc()
+            response = jsonify({'error': f'Video generation or upload failed: {str(e)}'})
+            response.headers.add('Access-Control-Allow-Origin', '*')
+            return response, 500
         
-        return jsonify({
+        print("Success! Returning successful response.")
+        response = jsonify({
             'status': 'success',
             'message': 'Test video generated successfully',
             'roast_content': roast_content,
             'video_url': video_url,
             'cost_info': cost_info
         })
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
         
     except Exception as e:
-        print(f"Error in test_roast_generation: {str(e)}")
-        return jsonify({'error': str(e)}), 500
+        error_msg = f"Error in test_roast_generation: {str(e)}"
+        print(f"UNHANDLED ERROR: {error_msg}")
+        traceback.print_exc()
+        response = jsonify({'error': error_msg})
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response, 500
 
 @api_bp.route('/health', methods=['GET'])
 def health_check():
@@ -279,9 +339,17 @@ def health_check():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-@api_bp.route('/debug-info', methods=['GET'])
+@api_bp.route('/debug-info', methods=['GET', 'POST', 'OPTIONS'])
 def debug_info():
     """Return debug information about the server environment."""
+    # Handle OPTIONS for CORS preflight requests
+    if request.method == 'OPTIONS':
+        response = make_response()
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+        response.headers.add('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        return response
+        
     try:
         # Check directories exist
         temp_dir_exists = os.path.exists('temp_files')
@@ -316,6 +384,13 @@ def debug_info():
             'python_version': platform.python_version(),
         }
         
+        # Get a more complete environment details
+        env_info = {}
+        for key, value in os.environ.items():
+            # Only include non-sensitive keys
+            if 'KEY' not in key.upper() and 'SECRET' not in key.upper() and 'PASSWORD' not in key.upper() and 'TOKEN' not in key.upper():
+                env_info[key] = value
+        
         debug_data = {
             'timestamp': str(datetime.datetime.now()),
             'directories': {
@@ -324,6 +399,7 @@ def debug_info():
                 'current_working_dir': os.getcwd()
             },
             'environment_variables': api_keys_info,
+            'selected_env_vars': env_info,
             'disk_info': disk_info,
             'system_info': system_info
         }
@@ -491,3 +567,134 @@ def test_roast_only():
     except Exception as e:
         print(f"Error in test_roast_only: {str(e)}")
         return jsonify({'error': str(e)}), 500
+
+@api_bp.route('/simple-test', methods=['GET', 'POST', 'OPTIONS'])
+def simple_test():
+    """A very simple endpoint that just returns a string, useful for testing."""
+    # Handle OPTIONS for CORS preflight requests
+    if request.method == 'OPTIONS':
+        response = make_response()
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+        response.headers.add('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        return response
+    
+    # Just return a simple string
+    print("Simple test endpoint called successfully")
+    response = make_response('Simple test endpoint working')
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
+
+@api_bp.route('/server-diagnostic', methods=['GET', 'POST', 'OPTIONS'])
+def server_diagnostic():
+    """Simple diagnostic endpoint that tests various aspects of the server setup."""
+    # Handle OPTIONS for CORS preflight requests
+    if request.method == 'OPTIONS':
+        response = make_response()
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        response.headers.add('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+        response.headers.add('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        return response
+    
+    results = {
+        "timestamp": str(datetime.datetime.now()),
+        "tests": {}
+    }
+    
+    # Test 1: Directory permissions
+    try:
+        # Test temp_files directory
+        test_dir = "temp_files"
+        os.makedirs(test_dir, exist_ok=True)
+        test_file = os.path.join(test_dir, "test_write.txt")
+        with open(test_file, 'w') as f:
+            f.write("Test write at " + str(datetime.datetime.now()))
+        with open(test_file, 'r') as f:
+            content = f.read()
+        os.remove(test_file)
+        results["tests"]["directory_permissions"] = {
+            "status": "success",
+            "message": f"Successfully wrote and read from {test_dir}"
+        }
+    except Exception as e:
+        results["tests"]["directory_permissions"] = {
+            "status": "failed",
+            "message": f"Failed to write/read: {str(e)}"
+        }
+    
+    # Test 2: API keys presence
+    api_keys = {
+        "ANTHROPIC_API_KEY": bool(os.environ.get("ANTHROPIC_API_KEY")),
+        "ELEVENLABS_API_KEY": bool(os.environ.get("ELEVENLABS_API_KEY")),
+        "SUPABASE_URL": bool(os.environ.get("SUPABASE_URL")),
+        "SUPABASE_KEY": bool(os.environ.get("SUPABASE_KEY"))
+    }
+    results["tests"]["api_keys"] = {
+        "status": "success" if all(api_keys.values()) else "failed",
+        "message": "All required API keys are present" if all(api_keys.values()) else "Missing API keys",
+        "details": api_keys
+    }
+    
+    # Test 3: Network connectivity (basic)
+    try:
+        import urllib.request
+        with urllib.request.urlopen("https://api.anthropic.com", timeout=5) as response:
+            anthropic_status = response.status
+        with urllib.request.urlopen("https://api.elevenlabs.io", timeout=5) as response:
+            elevenlabs_status = response.status
+            
+        results["tests"]["network_connectivity"] = {
+            "status": "success",
+            "message": "Successfully connected to external APIs",
+            "details": {
+                "anthropic": anthropic_status,
+                "elevenlabs": elevenlabs_status
+            }
+        }
+    except Exception as e:
+        results["tests"]["network_connectivity"] = {
+            "status": "failed",
+            "message": f"Failed to connect to external APIs: {str(e)}"
+        }
+    
+    # Test 4: Check for Python packages
+    try:
+        import anthropic
+        results["tests"]["anthropic_sdk"] = {
+            "status": "success",
+            "version": anthropic.__version__ if hasattr(anthropic, "__version__") else "unknown"
+        }
+    except ImportError:
+        results["tests"]["anthropic_sdk"] = {
+            "status": "failed",
+            "message": "Anthropic SDK not installed"
+        }
+    
+    # Test 5: Check disk space
+    try:
+        import shutil
+        usage = shutil.disk_usage('/')
+        free_gb = round(usage.free / (1024**3), 2)
+        results["tests"]["disk_space"] = {
+            "status": "success" if free_gb > 1.0 else "warning",
+            "message": f"{free_gb} GB free" if free_gb > 1.0 else f"Low disk space: only {free_gb} GB free",
+            "details": {
+                "total_gb": round(usage.total / (1024**3), 2),
+                "used_gb": round(usage.used / (1024**3), 2),
+                "free_gb": free_gb,
+                "percent_used": round(usage.used / usage.total * 100, 2)
+            }
+        }
+    except Exception as e:
+        results["tests"]["disk_space"] = {
+            "status": "failed",
+            "message": f"Failed to check disk space: {str(e)}"
+        }
+    
+    # Check for overall success
+    all_tests_passed = all(test["status"] == "success" for test in results["tests"].values())
+    results["overall_status"] = "success" if all_tests_passed else "failed"
+    
+    response = jsonify(results)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
