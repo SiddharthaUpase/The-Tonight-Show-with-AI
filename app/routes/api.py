@@ -8,6 +8,8 @@ import os
 import uuid
 import json
 import shutil
+import datetime
+import traceback
 
 api_bp = Blueprint('api', __name__)
 
@@ -29,10 +31,12 @@ def generate_roast_video():
         data = request.get_json()
         linkedin_url = data.get('linkedin_url')
         
-        print(linkedin_url)
+        print(f"Starting generate-roast with LinkedIn URL: {linkedin_url}")
         
         if not linkedin_url:
-            return jsonify({'error': 'LinkedIn URL is required'}), 400
+            response = jsonify({'error': 'LinkedIn URL is required'})
+            response.headers.add('Access-Control-Allow-Origin', '*')
+            return response, 400
         
         # Track costs
         cost_info = {
@@ -48,13 +52,27 @@ def generate_roast_video():
             'total_cost': 0.0
         }
         
-        print('Attempting to get linkedin data')
-        linkedin_data = get_linkedin_data(linkedin_url)
-        print('Linkedin data retrieved')
+        # Attempt to get LinkedIn data with detailed error logging
+        try:
+            print('Attempting to get LinkedIn data')
+            linkedin_data = get_linkedin_data(linkedin_url)
+            print('LinkedIn data retrieved successfully')
+        except Exception as e:
+            print(f"ERROR in get_linkedin_data: {str(e)}")
+            response = jsonify({'error': f'LinkedIn data extraction failed: {str(e)}'})
+            response.headers.add('Access-Control-Allow-Origin', '*')
+            return response, 500
 
-        print('Generating roast content')
-        roast_content = generate_roast(linkedin_data)
-        print('Roast content generated')
+        # Attempt to generate roast with detailed error logging
+        try:
+            print('Generating roast content')
+            roast_content = generate_roast(linkedin_data)
+            print('Roast content generated successfully')
+        except Exception as e:
+            print(f"ERROR in generate_roast: {str(e)}")
+            response = jsonify({'error': f'Roast generation failed: {str(e)}'})
+            response.headers.add('Access-Control-Allow-Origin', '*')
+            return response, 500
         
         # Estimate Claude cost
         prompt_words = len(str(linkedin_data).split()) * 0.5  # Rough estimate
@@ -64,10 +82,17 @@ def generate_roast_video():
         cost_info['claude']['estimated_tokens'] = token_count
         cost_info['claude']['estimated_cost'] = claude_cost
         
-        print('Generating speech audio')
-        audio_path, elevenlabs_cost_info = generate_speech(roast_content)
-        cost_info['elevenlabs'] = elevenlabs_cost_info
-        print('Speech audio generated')
+        # Attempt to generate speech with detailed error logging
+        try:
+            print('Generating speech audio')
+            audio_path, elevenlabs_cost_info = generate_speech(roast_content)
+            print(f'Speech audio generated successfully at path: {audio_path}')
+            cost_info['elevenlabs'] = elevenlabs_cost_info
+        except Exception as e:
+            print(f"ERROR in generate_speech: {str(e)}")
+            response = jsonify({'error': f'Speech generation failed: {str(e)}'})
+            response.headers.add('Access-Control-Allow-Origin', '*')
+            return response, 500
         
         # Calculate total cost
         total_cost = cost_info['claude']['estimated_cost'] + cost_info['elevenlabs']['estimated_cost']
@@ -79,20 +104,33 @@ def generate_roast_video():
         print(f"TOTAL COST: ${total_cost:.6f}")
         print(f"=======================\n")
         
-        print('Generating and uploading final video')
-        video_url = generate_video(linkedin_data, audio_path, roast_content)
-        print('Video generated and uploaded')
+        # Attempt to generate video with detailed error logging
+        try:
+            print('Generating and uploading final video')
+            video_url = generate_video(linkedin_data, audio_path, roast_content)
+            print(f'Video generated and uploaded successfully, URL: {video_url}')
+        except Exception as e:
+            print(f"ERROR in generate_video: {str(e)}")
+            response = jsonify({'error': f'Video generation or upload failed: {str(e)}'})
+            response.headers.add('Access-Control-Allow-Origin', '*')
+            return response, 500
         
-        return jsonify({
+        response = jsonify({
             'status': 'success',
             'message': 'Video generated and uploaded successfully',
             'video_url': video_url,
             'cost_info': cost_info
         })
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
         
     except Exception as e:
-        print(f"Error in generate_roast_video: {str(e)}")
-        return jsonify({'error': str(e)}), 500
+        error_msg = f"Error in generate_roast_video: {str(e)}"
+        print(error_msg)
+        traceback.print_exc()
+        response = jsonify({'error': error_msg})
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response, 500
 
 @api_bp.route('/test-roast', methods=['POST'])
 def test_roast_generation():
@@ -233,7 +271,83 @@ def test_roast_generation():
 
 @api_bp.route('/health', methods=['GET'])
 def health_check():
-    return jsonify({'status': 'healthy'}) 
+    response = jsonify({
+        'status': 'healthy',
+        'environment': os.environ.get('FLASK_ENV', 'not set'),
+        'version': '1.0'
+    })
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
+
+@api_bp.route('/debug-info', methods=['GET'])
+def debug_info():
+    """Return debug information about the server environment."""
+    try:
+        # Check directories exist
+        temp_dir_exists = os.path.exists('temp_files')
+        output_dir_exists = os.path.exists('output')
+        
+        # Check for API keys (without exposing the actual keys)
+        api_keys_info = {
+            'ANTHROPIC_API_KEY': bool(os.environ.get('ANTHROPIC_API_KEY')),
+            'ELEVENLABS_API_KEY': bool(os.environ.get('ELEVENLABS_API_KEY')),
+            'SUPABASE_URL': bool(os.environ.get('SUPABASE_URL')),
+            'SUPABASE_KEY': bool(os.environ.get('SUPABASE_KEY')),
+        }
+        
+        # Check disk space
+        import shutil
+        disk_usage = shutil.disk_usage('/')
+        disk_info = {
+            'total_gb': round(disk_usage.total / (1024**3), 2),
+            'used_gb': round(disk_usage.used / (1024**3), 2),
+            'free_gb': round(disk_usage.free / (1024**3), 2),
+            'percent_used': round(disk_usage.used / disk_usage.total * 100, 2)
+        }
+        
+        # System info
+        import platform
+        system_info = {
+            'system': platform.system(),
+            'release': platform.release(),
+            'version': platform.version(),
+            'machine': platform.machine(),
+            'processor': platform.processor(),
+            'python_version': platform.python_version(),
+        }
+        
+        debug_data = {
+            'timestamp': str(datetime.datetime.now()),
+            'directories': {
+                'temp_files_exists': temp_dir_exists,
+                'output_dir_exists': output_dir_exists,
+                'current_working_dir': os.getcwd()
+            },
+            'environment_variables': api_keys_info,
+            'disk_info': disk_info,
+            'system_info': system_info
+        }
+        
+        # Create directories if they don't exist
+        if not temp_dir_exists:
+            os.makedirs('temp_files', exist_ok=True)
+            debug_data['actions_taken'] = 'Created temp_files directory'
+            
+        if not output_dir_exists:
+            os.makedirs('output', exist_ok=True)
+            debug_data['actions_taken'] = debug_data.get('actions_taken', '') + ' Created output directory'
+        
+        response = jsonify(debug_data)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
+        
+    except Exception as e:
+        error_response = jsonify({
+            'error': str(e),
+            'traceback': traceback.format_exc()
+        })
+        error_response.headers.add('Access-Control-Allow-Origin', '*')
+        return error_response, 500
 
 @api_bp.route('/say-hi', methods=['GET'])
 def say_hi():
