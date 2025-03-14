@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .test-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .result {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            white-space: pre-wrap;
+            overflow-x: auto;
+        }
+        button {
+            padding: 8px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>API Test Page</h1>
+    
+    <div class="test-section">
+        <h2>GET Endpoints</h2>
+        <button onclick="testGet('/api/health')">Test /health</button>
+        <button onclick="testGet('/api/say-hi')">Test /say-hi</button>
+        <button onclick="testGet('/api/server-diagnostic-get')">Test /server-diagnostic-get</button>
+        <button onclick="testGet('/api/method-test')">Test /method-test (GET)</button>
+        <div id="get-result" class="result">Results will appear here...</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>POST Endpoints</h2>
+        <button onclick="testPost('/api/method-test', {})">Test /method-test (POST)</button>
+        <button onclick="testPost('/api/generate-roast', {linkedin_url: 'https://www.linkedin.com/in/example'})">Test /generate-roast</button>
+        <div id="post-result" class="result">Results will appear here...</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>OPTIONS Endpoints</h2>
+        <button onclick="testOptions('/api/method-test')">Test /method-test (OPTIONS)</button>
+        <button onclick="testOptions('/api/generate-roast')">Test /generate-roast (OPTIONS)</button>
+        <div id="options-result" class="result">Results will appear here...</div>
+    </div>
+    
+    <script>
+        async function testGet(endpoint) {
+            const resultElement = document.getElementById('get-result');
+            resultElement.textContent = 'Loading...';
+            try {
+                const response = await fetch(endpoint);
+                const status = response.status;
+                const headers = {};
+                response.headers.forEach((value, key) => {
+                    headers[key] = value;
+                });
+                
+                let resultText = `Status: ${status}\nHeaders: ${JSON.stringify(headers, null, 2)}\n\n`;
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    resultText += `Response data: ${JSON.stringify(data, null, 2)}`;
+                } else {
+                    resultText += `Error: ${response.statusText}`;
+                }
+                
+                resultElement.textContent = resultText;
+            } catch (error) {
+                resultElement.textContent = `Error: ${error.message}`;
+            }
+        }
+        
+        async function testPost(endpoint, body) {
+            const resultElement = document.getElementById('post-result');
+            resultElement.textContent = 'Loading...';
+            try {
+                const response = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(body)
+                });
+                
+                const status = response.status;
+                const headers = {};
+                response.headers.forEach((value, key) => {
+                    headers[key] = value;
+                });
+                
+                let resultText = `Status: ${status}\nHeaders: ${JSON.stringify(headers, null, 2)}\n\n`;
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    resultText += `Response data: ${JSON.stringify(data, null, 2)}`;
+                } else {
+                    resultText += `Error: ${response.statusText}`;
+                }
+                
+                resultElement.textContent = resultText;
+            } catch (error) {
+                resultElement.textContent = `Error: ${error.message}`;
+            }
+        }
+        
+        async function testOptions(endpoint) {
+            const resultElement = document.getElementById('options-result');
+            resultElement.textContent = 'Loading...';
+            try {
+                const response = await fetch(endpoint, {
+                    method: 'OPTIONS'
+                });
+                
+                const status = response.status;
+                const headers = {};
+                response.headers.forEach((value, key) => {
+                    headers[key] = value;
+                });
+                
+                let resultText = `Status: ${status}\nHeaders: ${JSON.stringify(headers, null, 2)}`;
+                
+                resultElement.textContent = resultText;
+            } catch (error) {
+                resultElement.textContent = `Error: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  flask-app:
+    build: .
+    ports:
+      - "80:8080"
+    volumes:
+      - .:/app
+      - ./temp_files:/app/temp_files
+      - ./output:/app/output
+      - ./test:/app/test
+    environment:
+      - FLASK_APP=run.py
+      - FLASK_ENV=production
+      # API keys will be loaded from the .env file on the host
+    env_file:
+      - .env
+    restart: unless-stopped 

@@ -698,3 +698,53 @@ def server_diagnostic():
     response = jsonify(results)
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
+
+@api_bp.route('/server-diagnostic-get', methods=['GET'])
+def server_diagnostic_get():
+    """Simple diagnostic endpoint that tests various aspects of the server setup - GET method only."""
+    print("Server diagnostic GET endpoint called")
+    
+    results = {
+        "timestamp": str(datetime.datetime.now()),
+        "method": "GET",
+        "tests": {
+            "basic": {
+                "status": "success",
+                "message": "GET method works!"
+            }
+        }
+    }
+    
+    response = jsonify(results)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
+
+@api_bp.route('/method-test', methods=['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'HEAD'])
+def method_test():
+    """Endpoint for testing which HTTP methods are being handled correctly."""
+    print(f"Method test endpoint called with method: {request.method}")
+    
+    response_data = {
+        "status": "success",
+        "timestamp": str(datetime.datetime.now()),
+        "method_received": request.method,
+        "headers_received": dict(request.headers),
+        "args": dict(request.args),
+        "remote_addr": request.remote_addr,
+        "content_type": request.content_type,
+        "endpoint": request.endpoint,
+    }
+    
+    # If this is a POST request, try to get the JSON data
+    if request.method == 'POST':
+        try:
+            json_data = request.get_json(silent=True)
+            response_data["json_data_received"] = json_data if json_data else "No JSON data or not valid JSON"
+        except Exception as e:
+            response_data["json_error"] = str(e)
+    
+    response = jsonify(response_data)
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS, HEAD')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type, Authorization')
+    return response
