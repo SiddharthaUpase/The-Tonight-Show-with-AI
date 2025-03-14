@@ -235,12 +235,11 @@ def test_roast_generation():
 def health_check():
     return jsonify({'status': 'healthy'}) 
 
-
-
-
 @api_bp.route('/say-hi', methods=['GET'])
 def say_hi():
-    return jsonify({'message': 'Hi from the API!'})
+    response = jsonify({'message': 'Hi from the API!'})
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
 
 @api_bp.route('/test-supabase', methods=['GET'])
 def test_supabase():
